@@ -1,0 +1,997 @@
+window.SITE_DATA = {
+  "site": {
+    "name": "Kai Salgado Photography",
+    "shortName": "KSP",
+    "title": "Kai Salgado Photography",
+    "tagline": "People, places and the moments in between.",
+    "location": "Bern, Switzerland",
+    "email": "salgado.photography@icloud.com",
+    "instagram": "https://www.instagram.com/kai.pitre.sgd/",
+    "linkedin": "",
+    "about": [
+      "Hi there and welcome to my website!",
+      "My name is Kai Pitre Salgado. I am 28 years old, live in Bern, Switzerland, and photography is my greatest passion.",
+      "What began as a personal way of observing the world has grown into a project I now share with others. Through Authentic View, I work in Switzerland’s cities and landscapes, capturing moments as they unfold.",
+      "Photography is, to me, one of the most beautiful forms of expression. It allows us to create art, preserve memories, show how we see the world, and document how life evolves over time. Images can reveal stories, emotions, and perspectives – often in ways words cannot.",
+      "A photograph does not need to capture everything to be meaningful. Its strength lies in its ability to distill a moment into a single frame. Even without sound, warmth, or scent, an image can bring us back to a certain feeling, awakening memories and emotions connected to that moment.",
+      "When I work with people, my focus lies on presence, atmosphere, and the small, often unnoticed details that make each moment unique. Through openness, trust, and shared time, images emerge that go beyond surface and offer an honest impression. The more natural and at ease a moment feels, the more authentic the view becomes.",
+      "For me, photography is about getting as close as possible to the feeling of that very moment. A strong image invites you to pause, look again, and reconnect with what was experienced – the authentic view just before I pressed the shutter.",
+      "I hope to see you soon.",
+      "Kai"
+    ],
+    "instagramHandle": "@kai.pitre.sgd"
+  },
+  "categoryOrder": [
+    "people",
+    "landscape",
+    "street",
+    "wildlife",
+    "events"
+  ],
+  "categories": {
+    "people": {
+      "title": "People",
+      "description": "Portraits, relationships and moments of connection.",
+      "hero": {
+        "source": "DSCF0140.jpg",
+        "alt": "Family sitting together on outdoor steps",
+        "layout": "full",
+        "orientation": "landscape",
+        "width": 2048,
+        "height": 1365,
+        "src640": "assets/images/people/dscf0140-640.webp",
+        "src1100": "assets/images/people/dscf0140-1100.webp",
+        "src1800": "assets/images/people/dscf0140-1800.webp"
+      },
+      "images": [
+        {
+          "source": "000095280008.jpg",
+          "alt": "Portrait of a woman on a red sports court",
+          "layout": "full",
+          "orientation": "portrait",
+          "width": 1357,
+          "height": 2048,
+          "src640": "assets/images/people/000095280008-640.webp",
+          "src1100": "assets/images/people/000095280008-1100.webp",
+          "src1800": "assets/images/people/000095280008-1800.webp"
+        },
+        {
+          "source": "DSCF0140.jpg",
+          "alt": "Family sitting together on outdoor steps",
+          "layout": "full",
+          "orientation": "landscape",
+          "width": 2048,
+          "height": 1365,
+          "src640": "assets/images/people/dscf0140-640.webp",
+          "src1100": "assets/images/people/dscf0140-1100.webp",
+          "src1800": "assets/images/people/dscf0140-1800.webp"
+        },
+        {
+          "source": "DSCF0186.jpg",
+          "alt": "Three friends laughing together at a celebration",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1372,
+          "height": 2048,
+          "src640": "assets/images/people/dscf0186-640.webp",
+          "src1100": "assets/images/people/dscf0186-1100.webp",
+          "src1800": "assets/images/people/dscf0186-1800.webp"
+        },
+        {
+          "source": "Hochzeit-15.jpg",
+          "alt": "Two people laughing together at an evening gathering",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1365,
+          "height": 2048,
+          "src640": "assets/images/people/hochzeit-15-640.webp",
+          "src1100": "assets/images/people/hochzeit-15-1100.webp",
+          "src1800": "assets/images/people/hochzeit-15-1800.webp"
+        },
+        {
+          "source": "Hochzeit-70.jpg",
+          "alt": "Outdoor portrait of a smiling woman",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1365,
+          "height": 2048,
+          "src640": "assets/images/people/hochzeit-70-640.webp",
+          "src1100": "assets/images/people/hochzeit-70-1100.webp",
+          "src1800": "assets/images/people/hochzeit-70-1800.webp"
+        },
+        {
+          "source": "DSCF0362.jpg",
+          "alt": "Two children standing in silhouette by a large window",
+          "layout": "full",
+          "orientation": "portrait",
+          "width": 1365,
+          "height": 2048,
+          "src640": "assets/images/people/dscf0362-640.webp",
+          "src1100": "assets/images/people/dscf0362-1100.webp",
+          "src1800": "assets/images/people/dscf0362-1800.webp"
+        },
+        {
+          "source": "DSCF0978.jpg",
+          "alt": "A couple kissing beneath warm string lights",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1365,
+          "height": 2048,
+          "src640": "assets/images/people/dscf0978-640.webp",
+          "src1100": "assets/images/people/dscf0978-1100.webp",
+          "src1800": "assets/images/people/dscf0978-1800.webp"
+        },
+        {
+          "source": "Hochzeit-106.jpg",
+          "alt": "A man blowing a large soap bubble",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1365,
+          "height": 2048,
+          "src640": "assets/images/people/hochzeit-106-640.webp",
+          "src1100": "assets/images/people/hochzeit-106-1100.webp",
+          "src1800": "assets/images/people/hochzeit-106-1800.webp"
+        },
+        {
+          "source": "IMG_1637.jpg",
+          "alt": "A musician playing bass guitar",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1365,
+          "height": 2048,
+          "src640": "assets/images/people/img-1637-640.webp",
+          "src1100": "assets/images/people/img-1637-1100.webp",
+          "src1800": "assets/images/people/img-1637-1800.webp"
+        },
+        {
+          "source": "IMG_2620.jpg",
+          "alt": "Portrait of a hiker in a mountain landscape",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1638,
+          "height": 2047,
+          "src640": "assets/images/people/img-2620-640.webp",
+          "src1100": "assets/images/people/img-2620-1100.webp",
+          "src1800": "assets/images/people/img-2620-1800.webp"
+        },
+        {
+          "source": "DSCF3626-2.jpg",
+          "alt": "A couple overlooking a city at sunset",
+          "layout": "full",
+          "orientation": "landscape",
+          "width": 2048,
+          "height": 1365,
+          "src640": "assets/images/people/dscf3626-2-640.webp",
+          "src1100": "assets/images/people/dscf3626-2-1100.webp",
+          "src1800": "assets/images/people/dscf3626-2-1800.webp"
+        },
+        {
+          "source": "Hochzeit-84.jpg",
+          "alt": "People cooking together at an outdoor celebration",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1365,
+          "height": 2048,
+          "src640": "assets/images/people/hochzeit-84-640.webp",
+          "src1100": "assets/images/people/hochzeit-84-1100.webp",
+          "src1800": "assets/images/people/hochzeit-84-1800.webp"
+        }
+      ],
+      "heroDesktop": {
+        "source": "DSCF0140.jpg",
+        "alt": "Family sitting together on outdoor steps",
+        "layout": "full",
+        "orientation": "landscape",
+        "width": 2048,
+        "height": 1365,
+        "src640": "assets/images/people/dscf0140-640.webp",
+        "src1100": "assets/images/people/dscf0140-1100.webp",
+        "src1800": "assets/images/people/dscf0140-1800.webp"
+      },
+      "heroMobile": {
+        "source": "000095280008.jpg",
+        "alt": "Portrait of a woman on a red sports court",
+        "layout": "full",
+        "orientation": "portrait",
+        "width": 1357,
+        "height": 2048,
+        "src640": "assets/images/people/000095280008-640.webp",
+        "src1100": "assets/images/people/000095280008-1100.webp",
+        "src1800": "assets/images/people/000095280008-1800.webp"
+      },
+      "heroPositionDesktop": "center",
+      "heroPositionMobile": "center 28%"
+    },
+    "landscape": {
+      "title": "Landscape",
+      "description": "Open spaces, changing weather and the scale of the natural world.",
+      "hero": {
+        "source": "DSCF8317-2.jpg",
+        "alt": "A lone person walking across a beach beneath dark storm clouds",
+        "layout": "full",
+        "orientation": "landscape",
+        "width": 2048,
+        "height": 1365,
+        "src640": "assets/images/landscape/dscf8317-2-640.webp",
+        "src1100": "assets/images/landscape/dscf8317-2-1100.webp",
+        "src1800": "assets/images/landscape/dscf8317-2-1800.webp"
+      },
+      "images": [
+        {
+          "source": "35E54A18-6050-47F4-A1AA-0DB2DE00106E.jpg",
+          "alt": "A person standing beside a mountain lake at sunrise",
+          "layout": "full",
+          "orientation": "portrait",
+          "width": 1284,
+          "height": 1926,
+          "src640": "assets/images/landscape/35e54a18-6050-47f4-a1aa-0db2de00106e-640.webp",
+          "src1100": "assets/images/landscape/35e54a18-6050-47f4-a1aa-0db2de00106e-1100.webp",
+          "src1800": "assets/images/landscape/35e54a18-6050-47f4-a1aa-0db2de00106e-1800.webp"
+        },
+        {
+          "source": "DSCF2459.jpg",
+          "alt": "A hiker facing snow-covered mountain peaks above a flower meadow",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1365,
+          "height": 2048,
+          "src640": "assets/images/landscape/dscf2459-640.webp",
+          "src1100": "assets/images/landscape/dscf2459-1100.webp",
+          "src1800": "assets/images/landscape/dscf2459-1800.webp"
+        },
+        {
+          "source": "DSCF2604.jpg",
+          "alt": "An alpine lake reflecting snowy mountains and clouds",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1638,
+          "height": 2048,
+          "src640": "assets/images/landscape/dscf2604-640.webp",
+          "src1100": "assets/images/landscape/dscf2604-1100.webp",
+          "src1800": "assets/images/landscape/dscf2604-1800.webp"
+        },
+        {
+          "source": "DSCF6906.jpg",
+          "alt": "A person and dog crossing a wide sandy beach",
+          "layout": "full",
+          "orientation": "landscape",
+          "width": 2048,
+          "height": 1365,
+          "src640": "assets/images/landscape/dscf6906-640.webp",
+          "src1100": "assets/images/landscape/dscf6906-1100.webp",
+          "src1800": "assets/images/landscape/dscf6906-1800.webp"
+        },
+        {
+          "source": "DSCF8317-2.jpg",
+          "alt": "A lone person walking across a beach beneath dark storm clouds",
+          "layout": "full",
+          "orientation": "landscape",
+          "width": 2048,
+          "height": 1365,
+          "src640": "assets/images/landscape/dscf8317-2-640.webp",
+          "src1100": "assets/images/landscape/dscf8317-2-1100.webp",
+          "src1800": "assets/images/landscape/dscf8317-2-1800.webp"
+        },
+        {
+          "source": "DSCF7085.jpg",
+          "alt": "A hiker overlooking green coastal fields and the sea",
+          "layout": "full",
+          "orientation": "landscape",
+          "width": 2048,
+          "height": 1365,
+          "src640": "assets/images/landscape/dscf7085-640.webp",
+          "src1100": "assets/images/landscape/dscf7085-1100.webp",
+          "src1800": "assets/images/landscape/dscf7085-1800.webp"
+        },
+        {
+          "source": "DSCF7167.jpg",
+          "alt": "A broad coastal bay surrounded by green hills",
+          "layout": "full",
+          "orientation": "landscape",
+          "width": 2048,
+          "height": 1365,
+          "src640": "assets/images/landscape/dscf7167-640.webp",
+          "src1100": "assets/images/landscape/dscf7167-1100.webp",
+          "src1800": "assets/images/landscape/dscf7167-1800.webp"
+        },
+        {
+          "source": "DSCF7975.jpg",
+          "alt": "Rocky sea cliffs framed by soft coastal flowers",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1638,
+          "height": 2048,
+          "src640": "assets/images/landscape/dscf7975-640.webp",
+          "src1100": "assets/images/landscape/dscf7975-1100.webp",
+          "src1800": "assets/images/landscape/dscf7975-1800.webp"
+        },
+        {
+          "source": "DSCF9028.jpg",
+          "alt": "Turquoise ocean waves breaking around a dark rock",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1365,
+          "height": 2048,
+          "src640": "assets/images/landscape/dscf9028-640.webp",
+          "src1100": "assets/images/landscape/dscf9028-1100.webp",
+          "src1800": "assets/images/landscape/dscf9028-1800.webp"
+        },
+        {
+          "source": "DSCF2256.jpg",
+          "alt": "Green alpine hills with patches of late snow",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1365,
+          "height": 2048,
+          "src640": "assets/images/landscape/dscf2256-640.webp",
+          "src1100": "assets/images/landscape/dscf2256-1100.webp",
+          "src1800": "assets/images/landscape/dscf2256-1800.webp"
+        },
+        {
+          "source": "IMG_6805.jpg",
+          "alt": "A woman standing in a green field facing distant mountains",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1357,
+          "height": 2048,
+          "src640": "assets/images/landscape/img-6805-640.webp",
+          "src1100": "assets/images/landscape/img-6805-1100.webp",
+          "src1800": "assets/images/landscape/img-6805-1800.webp"
+        },
+        {
+          "source": "DSCF6873-2.jpg",
+          "alt": "A person carrying firewood across a quiet forest clearing",
+          "layout": "full",
+          "orientation": "landscape",
+          "width": 2048,
+          "height": 1365,
+          "src640": "assets/images/landscape/dscf6873-2-640.webp",
+          "src1100": "assets/images/landscape/dscf6873-2-1100.webp",
+          "src1800": "assets/images/landscape/dscf6873-2-1800.webp"
+        }
+      ],
+      "heroDesktop": {
+        "source": "DSCF8317-2.jpg",
+        "alt": "A lone person walking across a beach beneath dark storm clouds",
+        "layout": "full",
+        "orientation": "landscape",
+        "width": 2048,
+        "height": 1365,
+        "src640": "assets/images/landscape/dscf8317-2-640.webp",
+        "src1100": "assets/images/landscape/dscf8317-2-1100.webp",
+        "src1800": "assets/images/landscape/dscf8317-2-1800.webp"
+      },
+      "heroMobile": {
+        "source": "35E54A18-6050-47F4-A1AA-0DB2DE00106E.jpg",
+        "alt": "A person standing beside a mountain lake at sunrise",
+        "layout": "full",
+        "orientation": "portrait",
+        "width": 1284,
+        "height": 1926,
+        "src640": "assets/images/landscape/35e54a18-6050-47f4-a1aa-0db2de00106e-640.webp",
+        "src1100": "assets/images/landscape/35e54a18-6050-47f4-a1aa-0db2de00106e-1100.webp",
+        "src1800": "assets/images/landscape/35e54a18-6050-47f4-a1aa-0db2de00106e-1800.webp"
+      },
+      "heroPositionDesktop": "center",
+      "heroPositionMobile": "center 68%"
+    },
+    "street": {
+      "title": "Street",
+      "description": "Urban rhythm, architecture and spontaneous encounters.",
+      "hero": {
+        "source": "DSCF0270.jpg",
+        "alt": "A red brick city bridge spanning a river",
+        "layout": "full",
+        "orientation": "landscape",
+        "width": 2048,
+        "height": 1365,
+        "src640": "assets/images/street/dscf0270-640.webp",
+        "src1100": "assets/images/street/dscf0270-1100.webp",
+        "src1800": "assets/images/street/dscf0270-1800.webp"
+      },
+      "images": [
+        {
+          "source": "DSCF0823.jpg",
+          "alt": "A person in a blue coat walking past balconies and graffiti",
+          "layout": "full",
+          "orientation": "portrait",
+          "width": 1434,
+          "height": 2048,
+          "src640": "assets/images/street/dscf0823-640.webp",
+          "src1100": "assets/images/street/dscf0823-1100.webp",
+          "src1800": "assets/images/street/dscf0823-1800.webp"
+        },
+        {
+          "source": "DSCF0813.jpg",
+          "alt": "A person balancing a football in a leafy city square",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1365,
+          "height": 2048,
+          "src640": "assets/images/street/dscf0813-640.webp",
+          "src1100": "assets/images/street/dscf0813-1100.webp",
+          "src1800": "assets/images/street/dscf0813-1800.webp"
+        },
+        {
+          "source": "DSCF0265.jpg",
+          "alt": "A skateboarder sitting in front of a graffiti wall",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1365,
+          "height": 2048,
+          "src640": "assets/images/street/dscf0265-640.webp",
+          "src1100": "assets/images/street/dscf0265-1100.webp",
+          "src1800": "assets/images/street/dscf0265-1800.webp"
+        },
+        {
+          "source": "DSCF1019.jpg",
+          "alt": "Two people walking beneath opposing directional arrows",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1152,
+          "height": 2048,
+          "src640": "assets/images/street/dscf1019-640.webp",
+          "src1100": "assets/images/street/dscf1019-1100.webp",
+          "src1800": "assets/images/street/dscf1019-1800.webp"
+        },
+        {
+          "source": "DSCF2030-Topaz-Sharpen-Strong-Denoise.jpg",
+          "alt": "A pedestrian framed through a pale green scooter",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1365,
+          "height": 2048,
+          "src640": "assets/images/street/dscf2030-topaz-sharpen-strong-denoise-640.webp",
+          "src1100": "assets/images/street/dscf2030-topaz-sharpen-strong-denoise-1100.webp",
+          "src1800": "assets/images/street/dscf2030-topaz-sharpen-strong-denoise-1800.webp"
+        },
+        {
+          "source": "DSCF2122.jpg",
+          "alt": "Two people walking toward a sunlit wine cafe",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1365,
+          "height": 2048,
+          "src640": "assets/images/street/dscf2122-640.webp",
+          "src1100": "assets/images/street/dscf2122-1100.webp",
+          "src1800": "assets/images/street/dscf2122-1800.webp"
+        },
+        {
+          "source": "DSCF2889.jpg",
+          "alt": "A skateboarder performing a trick before a yellow facade",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1365,
+          "height": 2048,
+          "src640": "assets/images/street/dscf2889-640.webp",
+          "src1100": "assets/images/street/dscf2889-1100.webp",
+          "src1800": "assets/images/street/dscf2889-1800.webp"
+        },
+        {
+          "source": "DSCF7899-6.jpg",
+          "alt": "View across old city rooftops toward a clock tower",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1365,
+          "height": 2048,
+          "src640": "assets/images/street/dscf7899-6-640.webp",
+          "src1100": "assets/images/street/dscf7899-6-1100.webp",
+          "src1800": "assets/images/street/dscf7899-6-1800.webp"
+        },
+        {
+          "source": "DSCF9310.jpg",
+          "alt": "A red scooter parked beneath a long arcade",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1152,
+          "height": 2048,
+          "src640": "assets/images/street/dscf9310-640.webp",
+          "src1100": "assets/images/street/dscf9310-1100.webp",
+          "src1800": "assets/images/street/dscf9310-1800.webp"
+        },
+        {
+          "source": "IMG_1513.jpg",
+          "alt": "A steep city street leading toward a red building",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1365,
+          "height": 2048,
+          "src640": "assets/images/street/img-1513-640.webp",
+          "src1100": "assets/images/street/img-1513-1100.webp",
+          "src1800": "assets/images/street/img-1513-1800.webp"
+        },
+        {
+          "source": "IMG_1518.jpg",
+          "alt": "A skateboarder performing a trick beside a wooden doorway",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1365,
+          "height": 2048,
+          "src640": "assets/images/street/img-1518-640.webp",
+          "src1100": "assets/images/street/img-1518-1100.webp",
+          "src1800": "assets/images/street/img-1518-1800.webp"
+        },
+        {
+          "source": "IMG_1604.jpg",
+          "alt": "A pedestrian descending steps beneath a flowering tree",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1365,
+          "height": 2048,
+          "src640": "assets/images/street/img-1604-640.webp",
+          "src1100": "assets/images/street/img-1604-1100.webp",
+          "src1800": "assets/images/street/img-1604-1800.webp"
+        },
+        {
+          "source": "IMG_1615.jpg",
+          "alt": "A couple sitting together above a river and suspension bridge",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1365,
+          "height": 2048,
+          "src640": "assets/images/street/img-1615-640.webp",
+          "src1100": "assets/images/street/img-1615-1100.webp",
+          "src1800": "assets/images/street/img-1615-1800.webp"
+        },
+        {
+          "source": "IMG_1625.jpg",
+          "alt": "A man sitting alone on moss-covered stone steps",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1365,
+          "height": 2048,
+          "src640": "assets/images/street/img-1625-640.webp",
+          "src1100": "assets/images/street/img-1625-1100.webp",
+          "src1800": "assets/images/street/img-1625-1800.webp"
+        },
+        {
+          "source": "Lissabon Viewpoint2.jpg",
+          "alt": "A person overlooking a city during a pink and blue sunset",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1638,
+          "height": 2048,
+          "src640": "assets/images/street/lissabon-viewpoint2-640.webp",
+          "src1100": "assets/images/street/lissabon-viewpoint2-1100.webp",
+          "src1800": "assets/images/street/lissabon-viewpoint2-1800.webp"
+        },
+        {
+          "source": "IMG_2627.jpg",
+          "alt": "Reflective modern buildings seen from below",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1638,
+          "height": 2048,
+          "src640": "assets/images/street/img-2627-640.webp",
+          "src1100": "assets/images/street/img-2627-1100.webp",
+          "src1800": "assets/images/street/img-2627-1800.webp"
+        },
+        {
+          "source": "IMG_2630.jpg",
+          "alt": "A monumental tower rising above landscaped greenery",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1365,
+          "height": 2048,
+          "src640": "assets/images/street/img-2630-640.webp",
+          "src1100": "assets/images/street/img-2630-1100.webp",
+          "src1800": "assets/images/street/img-2630-1800.webp"
+        },
+        {
+          "source": "IMG_2632.jpg",
+          "alt": "A city tower reflected in a shallow pool at sunset",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1365,
+          "height": 2048,
+          "src640": "assets/images/street/img-2632-640.webp",
+          "src1100": "assets/images/street/img-2632-1100.webp",
+          "src1800": "assets/images/street/img-2632-1800.webp"
+        },
+        {
+          "source": "IMG_2636.jpg",
+          "alt": "A pedestrian crossing a quiet plaza framed by curved architecture",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1365,
+          "height": 2048,
+          "src640": "assets/images/street/img-2636-640.webp",
+          "src1100": "assets/images/street/img-2636-1100.webp",
+          "src1800": "assets/images/street/img-2636-1800.webp"
+        },
+        {
+          "source": "Luzern-19.jpg",
+          "alt": "A historic lakeside tower framed through decorative ironwork",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1365,
+          "height": 2048,
+          "src640": "assets/images/street/luzern-19-640.webp",
+          "src1100": "assets/images/street/luzern-19-1100.webp",
+          "src1800": "assets/images/street/luzern-19-1800.webp"
+        },
+        {
+          "source": "warsaw.jpg",
+          "alt": "A yellow bus beneath geometric station canopies and a high-rise tower",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1365,
+          "height": 2048,
+          "src640": "assets/images/street/warsaw-640.webp",
+          "src1100": "assets/images/street/warsaw-1100.webp",
+          "src1800": "assets/images/street/warsaw-1800.webp"
+        },
+        {
+          "source": "DSCF0270.jpg",
+          "alt": "A red brick city bridge spanning a river",
+          "layout": "full",
+          "orientation": "landscape",
+          "width": 2048,
+          "height": 1365,
+          "src640": "assets/images/street/dscf0270-640.webp",
+          "src1100": "assets/images/street/dscf0270-1100.webp",
+          "src1800": "assets/images/street/dscf0270-1800.webp"
+        },
+        {
+          "source": "DSCF4500.jpg",
+          "alt": "Older men gathered around a chess game",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1365,
+          "height": 2048,
+          "src640": "assets/images/street/dscf4500-640.webp",
+          "src1100": "assets/images/street/dscf4500-1100.webp",
+          "src1800": "assets/images/street/dscf4500-1800.webp"
+        },
+        {
+          "source": "DSCF4999-3.jpg",
+          "alt": "An illuminated cathedral and city streets at night",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1638,
+          "height": 2048,
+          "src640": "assets/images/street/dscf4999-3-640.webp",
+          "src1100": "assets/images/street/dscf4999-3-1100.webp",
+          "src1800": "assets/images/street/dscf4999-3-1800.webp"
+        },
+        {
+          "source": "DSCF7335-2.jpg",
+          "alt": "Street portrait of a stylish man in a grand arcade",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1365,
+          "height": 2048,
+          "src640": "assets/images/street/dscf7335-2-640.webp",
+          "src1100": "assets/images/street/dscf7335-2-1100.webp",
+          "src1800": "assets/images/street/dscf7335-2-1800.webp"
+        }
+      ],
+      "heroDesktop": {
+        "source": "DSCF0270.jpg",
+        "alt": "A red brick city bridge spanning a river",
+        "layout": "full",
+        "orientation": "landscape",
+        "width": 2048,
+        "height": 1365,
+        "src640": "assets/images/street/dscf0270-640.webp",
+        "src1100": "assets/images/street/dscf0270-1100.webp",
+        "src1800": "assets/images/street/dscf0270-1800.webp"
+      },
+      "heroMobile": {
+        "source": "DSCF0823.jpg",
+        "alt": "A person in a blue coat walking past balconies and graffiti",
+        "layout": "full",
+        "orientation": "portrait",
+        "width": 1434,
+        "height": 2048,
+        "src640": "assets/images/street/dscf0823-640.webp",
+        "src1100": "assets/images/street/dscf0823-1100.webp",
+        "src1800": "assets/images/street/dscf0823-1800.webp"
+      },
+      "heroPositionDesktop": "center",
+      "heroPositionMobile": "center 68%"
+    },
+    "wildlife": {
+      "title": "Wildlife",
+      "description": "Animals observed across habitats, from intimate detail to open landscape.",
+      "hero": {
+        "source": "DSCF5811.jpg",
+        "alt": "A male lion standing among dry branches",
+        "layout": "full",
+        "orientation": "landscape",
+        "width": 2048,
+        "height": 1365,
+        "src640": "assets/images/wildlife/dscf5811-640.webp",
+        "src1100": "assets/images/wildlife/dscf5811-1100.webp",
+        "src1800": "assets/images/wildlife/dscf5811-1800.webp"
+      },
+      "images": [
+        {
+          "source": "elephant.jpg",
+          "alt": "An elephant walking directly toward the camera on a dirt road",
+          "layout": "full",
+          "orientation": "portrait",
+          "width": 1365,
+          "height": 2048,
+          "src640": "assets/images/wildlife/elephant-640.webp",
+          "src1100": "assets/images/wildlife/elephant-1100.webp",
+          "src1800": "assets/images/wildlife/elephant-1800.webp"
+        },
+        {
+          "source": "DSCF5709.jpg",
+          "alt": "Close portrait of a male lion in dry woodland",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1365,
+          "height": 2048,
+          "src640": "assets/images/wildlife/dscf5709-640.webp",
+          "src1100": "assets/images/wildlife/dscf5709-1100.webp",
+          "src1800": "assets/images/wildlife/dscf5709-1800.webp"
+        },
+        {
+          "source": "DSCF4049-Topaz-Sharpen-Strong-Denoise.jpg",
+          "alt": "A cheetah standing on a sunlit road",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1501,
+          "height": 2048,
+          "src640": "assets/images/wildlife/dscf4049-topaz-sharpen-strong-denoise-640.webp",
+          "src1100": "assets/images/wildlife/dscf4049-topaz-sharpen-strong-denoise-1100.webp",
+          "src1800": "assets/images/wildlife/dscf4049-topaz-sharpen-strong-denoise-1800.webp"
+        },
+        {
+          "source": "DSCF5811.jpg",
+          "alt": "A male lion standing among dry branches",
+          "layout": "full",
+          "orientation": "landscape",
+          "width": 2048,
+          "height": 1365,
+          "src640": "assets/images/wildlife/dscf5811-640.webp",
+          "src1100": "assets/images/wildlife/dscf5811-1100.webp",
+          "src1800": "assets/images/wildlife/dscf5811-1800.webp"
+        },
+        {
+          "source": "DSCF3555-2.jpg",
+          "alt": "An elephant crossing a shallow river",
+          "layout": "full",
+          "orientation": "landscape",
+          "width": 2047,
+          "height": 1365,
+          "src640": "assets/images/wildlife/dscf3555-2-640.webp",
+          "src1100": "assets/images/wildlife/dscf3555-2-1100.webp",
+          "src1800": "assets/images/wildlife/dscf3555-2-1800.webp"
+        },
+        {
+          "source": "DSCF5937-2.jpg",
+          "alt": "A lioness resting beneath a tree",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1638,
+          "height": 2048,
+          "src640": "assets/images/wildlife/dscf5937-2-640.webp",
+          "src1100": "assets/images/wildlife/dscf5937-2-1100.webp",
+          "src1800": "assets/images/wildlife/dscf5937-2-1800.webp"
+        },
+        {
+          "source": "DSCF5358.jpg",
+          "alt": "Close portrait of a vervet monkey holding food",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1365,
+          "height": 2048,
+          "src640": "assets/images/wildlife/dscf5358-640.webp",
+          "src1100": "assets/images/wildlife/dscf5358-1100.webp",
+          "src1800": "assets/images/wildlife/dscf5358-1800.webp"
+        },
+        {
+          "source": "DSCF6417.jpg",
+          "alt": "A small group of zebras standing in tall grass",
+          "layout": "full",
+          "orientation": "landscape",
+          "width": 2048,
+          "height": 1365,
+          "src640": "assets/images/wildlife/dscf6417-640.webp",
+          "src1100": "assets/images/wildlife/dscf6417-1100.webp",
+          "src1800": "assets/images/wildlife/dscf6417-1800.webp"
+        },
+        {
+          "source": "DSCF0167.jpg",
+          "alt": "Two African penguins touching beaks beside the sea",
+          "layout": "full",
+          "orientation": "landscape",
+          "width": 2048,
+          "height": 1262,
+          "src640": "assets/images/wildlife/dscf0167-640.webp",
+          "src1100": "assets/images/wildlife/dscf0167-1100.webp",
+          "src1800": "assets/images/wildlife/dscf0167-1800.webp"
+        },
+        {
+          "source": "DSCF0333-2.jpg",
+          "alt": "Close portrait of a brightly coloured toucan",
+          "layout": "full",
+          "orientation": "landscape",
+          "width": 2048,
+          "height": 1365,
+          "src640": "assets/images/wildlife/dscf0333-2-640.webp",
+          "src1100": "assets/images/wildlife/dscf0333-2-1100.webp",
+          "src1800": "assets/images/wildlife/dscf0333-2-1800.webp"
+        },
+        {
+          "source": "DSCF0131.jpg",
+          "alt": "A brown butterfly perched on a wet leaf",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1638,
+          "height": 2048,
+          "src640": "assets/images/wildlife/dscf0131-640.webp",
+          "src1100": "assets/images/wildlife/dscf0131-1100.webp",
+          "src1800": "assets/images/wildlife/dscf0131-1800.webp"
+        },
+        {
+          "source": "DSCF4520-3.jpg",
+          "alt": "A blue-headed lizard clinging to tree bark",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1638,
+          "height": 2048,
+          "src640": "assets/images/wildlife/dscf4520-3-640.webp",
+          "src1100": "assets/images/wildlife/dscf4520-3-1100.webp",
+          "src1800": "assets/images/wildlife/dscf4520-3-1800.webp"
+        },
+        {
+          "source": "DSCF0174-3.jpg",
+          "alt": "An orange butterfly resting on an orange flower",
+          "layout": "full",
+          "orientation": "landscape",
+          "width": 2048,
+          "height": 1365,
+          "src640": "assets/images/wildlife/dscf0174-3-640.webp",
+          "src1100": "assets/images/wildlife/dscf0174-3-1100.webp",
+          "src1800": "assets/images/wildlife/dscf0174-3-1800.webp"
+        }
+      ],
+      "heroDesktop": {
+        "source": "DSCF5811.jpg",
+        "alt": "A male lion standing among dry branches",
+        "layout": "full",
+        "orientation": "landscape",
+        "width": 2048,
+        "height": 1365,
+        "src640": "assets/images/wildlife/dscf5811-640.webp",
+        "src1100": "assets/images/wildlife/dscf5811-1100.webp",
+        "src1800": "assets/images/wildlife/dscf5811-1800.webp"
+      },
+      "heroMobile": {
+        "source": "elephant.jpg",
+        "alt": "An elephant walking directly toward the camera on a dirt road",
+        "layout": "full",
+        "orientation": "portrait",
+        "width": 1365,
+        "height": 2048,
+        "src640": "assets/images/wildlife/elephant-640.webp",
+        "src1100": "assets/images/wildlife/elephant-1100.webp",
+        "src1800": "assets/images/wildlife/elephant-1800.webp"
+      },
+      "heroPositionDesktop": "center",
+      "heroPositionMobile": "center 58%"
+    },
+    "events": {
+      "title": "Events",
+      "description": "Conferences, workshops and shared professional moments.",
+      "hero": {
+        "source": "DSCF5371.jpg",
+        "alt": "A panel discussion with four speakers on stage",
+        "layout": "full",
+        "orientation": "landscape",
+        "width": 2048,
+        "height": 1365,
+        "src640": "assets/images/events/dscf5371-640.webp",
+        "src1100": "assets/images/events/dscf5371-1100.webp",
+        "src1800": "assets/images/events/dscf5371-1800.webp"
+      },
+      "images": [
+        {
+          "source": "DSCF5371.jpg",
+          "alt": "A panel discussion with four speakers on stage",
+          "layout": "full",
+          "orientation": "landscape",
+          "width": 2048,
+          "height": 1365,
+          "src640": "assets/images/events/dscf5371-640.webp",
+          "src1100": "assets/images/events/dscf5371-1100.webp",
+          "src1800": "assets/images/events/dscf5371-1800.webp"
+        },
+        {
+          "source": "DSCF5352-2.jpg",
+          "alt": "Two speakers in conversation during a panel discussion",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1365,
+          "height": 2048,
+          "src640": "assets/images/events/dscf5352-2-640.webp",
+          "src1100": "assets/images/events/dscf5352-2-1100.webp",
+          "src1800": "assets/images/events/dscf5352-2-1800.webp"
+        },
+        {
+          "source": "DSCF6030.jpg",
+          "alt": "An attentive audience seated during a workshop",
+          "layout": "full",
+          "orientation": "landscape",
+          "width": 2048,
+          "height": 1365,
+          "src640": "assets/images/events/dscf6030-640.webp",
+          "src1100": "assets/images/events/dscf6030-1100.webp",
+          "src1800": "assets/images/events/dscf6030-1800.webp"
+        },
+        {
+          "source": "DSCF5710.jpg",
+          "alt": "A group holding certificates after an event",
+          "layout": "full",
+          "orientation": "landscape",
+          "width": 2047,
+          "height": 1372,
+          "src640": "assets/images/events/dscf5710-640.webp",
+          "src1100": "assets/images/events/dscf5710-1100.webp",
+          "src1800": "assets/images/events/dscf5710-1800.webp"
+        },
+        {
+          "source": "DSCF6138.jpg",
+          "alt": "Participants collaborating around a workshop table",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1365,
+          "height": 2048,
+          "src640": "assets/images/events/dscf6138-640.webp",
+          "src1100": "assets/images/events/dscf6138-1100.webp",
+          "src1800": "assets/images/events/dscf6138-1800.webp"
+        },
+        {
+          "source": "DSCF6274-2.jpg",
+          "alt": "A participant writing notes during a workshop exercise",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1365,
+          "height": 2048,
+          "src640": "assets/images/events/dscf6274-2-640.webp",
+          "src1100": "assets/images/events/dscf6274-2-1100.webp",
+          "src1800": "assets/images/events/dscf6274-2-1800.webp"
+        },
+        {
+          "source": "DSCF6359.jpg",
+          "alt": "Workshop cards and materials spread across a table",
+          "layout": "full",
+          "orientation": "landscape",
+          "width": 2048,
+          "height": 1365,
+          "src640": "assets/images/events/dscf6359-640.webp",
+          "src1100": "assets/images/events/dscf6359-1100.webp",
+          "src1800": "assets/images/events/dscf6359-1800.webp"
+        }
+      ],
+      "heroDesktop": {
+        "source": "DSCF5371.jpg",
+        "alt": "A panel discussion with four speakers on stage",
+        "layout": "full",
+        "orientation": "landscape",
+        "width": 2048,
+        "height": 1365,
+        "src640": "assets/images/events/dscf5371-640.webp",
+        "src1100": "assets/images/events/dscf5371-1100.webp",
+        "src1800": "assets/images/events/dscf5371-1800.webp"
+      },
+      "heroMobile": {
+        "source": "DSCF5352-2.jpg",
+        "alt": "Two speakers in conversation during a panel discussion",
+        "layout": "auto",
+        "orientation": "portrait",
+        "width": 1365,
+        "height": 2048,
+        "src640": "assets/images/events/dscf5352-2-640.webp",
+        "src1100": "assets/images/events/dscf5352-2-1100.webp",
+        "src1800": "assets/images/events/dscf5352-2-1800.webp"
+      },
+      "heroPositionDesktop": "center",
+      "heroPositionMobile": "center"
+    }
+  }
+};

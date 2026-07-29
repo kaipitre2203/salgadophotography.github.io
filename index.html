@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Kai Salgado Photography</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0a0a0a">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="Photography portfolio of Kai Salgado Photography.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script defer src="assets/js/site-data.js"></script>
+  <script defer src="assets/js/main.js"></script>
+</head>
+<body class="page-home">
+
+<header class="site-header" data-header>
+  <a class="brand" href="index.html" aria-label="Home">Kai Salgado Photography</a>
+  <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-navigation" data-menu-toggle>
+    <span class="menu-toggle__label">Menu</span>
+    <span class="menu-toggle__icon" aria-hidden="true"><i></i><i></i></span>
+  </button>
+  <nav class="site-nav" id="site-navigation" aria-label="Primary navigation" data-nav>
+    <a href="gallery.html?category=people">People</a>
+    <a href="gallery.html?category=landscape">Landscape</a>
+    <a href="gallery.html?category=street">Street</a>
+    <a href="gallery.html?category=wildlife">Wildlife</a>
+    <a href="gallery.html?category=events">Events</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <section class="home-hero" data-home-hero aria-labelledby="home-title">
+    <div class="home-hero__media" data-home-hero-media></div>
+    <div class="home-hero__shade"></div>
+    <div class="home-hero__content">
+      <p class="eyebrow">Photography · Bern</p>
+      <h1 id="home-title">People, places<br>and the moments<br>in between.</h1>
+      <a class="scroll-cue" href="#work">View selected work <span aria-hidden="true">↓</span></a>
+    </div>
+  </section>
+  <section class="work-index" id="work" aria-labelledby="work-title">
+    <header class="section-intro">
+      <p class="eyebrow">Selected work</p>
+      <h2 id="work-title">Five bodies of work</h2>
+    </header>
+    <div class="project-grid" data-project-grid></div>
+  </section>
+  <section class="home-statement">
+    <p>Photography grounded in observation, atmosphere and human connection.</p>
+    <a class="text-link" href="about.html">About the photographer <span aria-hidden="true">↗</span></a>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <a href="index.html" class="site-footer__brand">KSP</a>
+  <p>Photography portfolio</p>
+  <p>© <span data-year></span> Kai Salgado Photography</p>
+</footer>
+
+</body>
+</html>
