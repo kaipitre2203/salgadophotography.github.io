@@ -333,3 +333,31 @@ img { max-width: 100%; display: block; }
     margin-bottom: 18px;
   }
 }
+
+
+/* V5: compact work heading and correctly sized category covers */
+.section-intro h2 {
+  font-size: clamp(28px, 3.7vw, 58px);
+  line-height: 1;
+  letter-spacing: -.035em;
+}
+
+/* Prevent cards in the same CSS-grid row from stretching to equal heights.
+   Each cover now follows the exact aspect ratio of its photograph. */
+.project-grid {
+  align-items: start;
+}
+.project-card {
+  align-self: start;
+  height: fit-content;
+}
+.project-card__media,
+.project-card__media img {
+  display: block;
+}
+
+@media (max-width: 760px) {
+  .section-intro h2 {
+    font-size: clamp(27px, 9vw, 40px);
+  }
+}

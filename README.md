@@ -69,3 +69,7 @@ Then open `http://localhost:8000`.
 - Removes all references to “Authentic View”.
 - Adds a clear commercial focus for companies, restaurants, cafés and organisations.
 - Displays gallery images in a compact responsive layout: three columns on desktop, two on tablets and one on smartphones.
+
+
+## V5 update
+The home-page work heading is smaller, category cards retain their natural image proportions without black gaps, and Events uses a panel-discussion cover from the Events gallery.

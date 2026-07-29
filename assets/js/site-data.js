@@ -901,15 +901,15 @@ window.SITE_DATA = {
       "title": "Events",
       "description": "Conferences, workshops and shared professional moments.",
       "hero": {
-        "source": "DSCF0270.jpg",
-        "alt": "A red brick city bridge spanning a river",
+        "source": "DSCF5371.jpg",
+        "alt": "A panel discussion with four speakers on stage",
         "layout": "full",
         "orientation": "landscape",
         "width": 2048,
         "height": 1365,
-        "src640": "assets/images/street/dscf0270-640.webp",
-        "src1100": "assets/images/street/dscf0270-1100.webp",
-        "src1800": "assets/images/street/dscf0270-1800.webp"
+        "src640": "assets/images/events/dscf5371-640.webp",
+        "src1100": "assets/images/events/dscf5371-1100.webp",
+        "src1800": "assets/images/events/dscf5371-1800.webp"
       },
       "images": [
         {
@@ -991,26 +991,26 @@ window.SITE_DATA = {
         }
       ],
       "heroDesktop": {
-        "source": "DSCF0270.jpg",
-        "alt": "A red brick city bridge spanning a river",
+        "source": "DSCF5371.jpg",
+        "alt": "A panel discussion with four speakers on stage",
         "layout": "full",
         "orientation": "landscape",
         "width": 2048,
         "height": 1365,
-        "src640": "assets/images/street/dscf0270-640.webp",
-        "src1100": "assets/images/street/dscf0270-1100.webp",
-        "src1800": "assets/images/street/dscf0270-1800.webp"
+        "src640": "assets/images/events/dscf5371-640.webp",
+        "src1100": "assets/images/events/dscf5371-1100.webp",
+        "src1800": "assets/images/events/dscf5371-1800.webp"
       },
       "heroMobile": {
-        "source": "DSCF0270.jpg",
-        "alt": "A red brick city bridge spanning a river",
+        "source": "DSCF5371.jpg",
+        "alt": "A panel discussion with four speakers on stage",
         "layout": "full",
         "orientation": "landscape",
         "width": 2048,
         "height": 1365,
-        "src640": "assets/images/street/dscf0270-640.webp",
-        "src1100": "assets/images/street/dscf0270-1100.webp",
-        "src1800": "assets/images/street/dscf0270-1800.webp"
+        "src640": "assets/images/events/dscf5371-640.webp",
+        "src1100": "assets/images/events/dscf5371-1100.webp",
+        "src1800": "assets/images/events/dscf5371-1800.webp"
       },
       "heroPositionDesktop": "center",
       "heroPositionMobile": "center"
