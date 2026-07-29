@@ -317,6 +317,17 @@ window.SITE_DATA = {
           "src1800": "assets/images/landscape/dscf7167-1800.webp"
         },
         {
+          "source": "DSCF6873-2.jpg",
+          "alt": "A person carrying firewood across a quiet forest clearing",
+          "layout": "full",
+          "orientation": "landscape",
+          "width": 2048,
+          "height": 1365,
+          "src640": "assets/images/landscape/dscf6873-2-640.webp",
+          "src1100": "assets/images/landscape/dscf6873-2-1100.webp",
+          "src1800": "assets/images/landscape/dscf6873-2-1800.webp"
+        },
+        {
           "source": "DSCF7975.jpg",
           "alt": "Rocky sea cliffs framed by soft coastal flowers",
           "layout": "auto",
@@ -359,17 +370,6 @@ window.SITE_DATA = {
           "src640": "assets/images/landscape/img-6805-640.webp",
           "src1100": "assets/images/landscape/img-6805-1100.webp",
           "src1800": "assets/images/landscape/img-6805-1800.webp"
-        },
-        {
-          "source": "DSCF6873-2.jpg",
-          "alt": "A person carrying firewood across a quiet forest clearing",
-          "layout": "full",
-          "orientation": "landscape",
-          "width": 2048,
-          "height": 1365,
-          "src640": "assets/images/landscape/dscf6873-2-640.webp",
-          "src1100": "assets/images/landscape/dscf6873-2-1100.webp",
-          "src1800": "assets/images/landscape/dscf6873-2-1800.webp"
         }
       ],
       "heroDesktop": {

@@ -73,3 +73,6 @@ Then open `http://localhost:8000`.
 
 ## V5 update
 The home-page work heading is smaller, category cards retain their natural image proportions without black gaps, and Events uses a panel-discussion cover from the Events gallery.
+
+## Version 6 gallery layout
+The galleries use curated justified rows on desktop, automatically balanced rows on tablets, and a single-column sequence on phones. Original image proportions are preserved without cropping.

@@ -81,9 +81,10 @@
     observeReveals();
   }
 
-  function makePhoto(image, index) {
+  function makePhoto(image, index, rowSize = 3) {
     const figure = document.createElement('figure');
     figure.className = 'gallery-item reveal';
+    figure.style.setProperty('--ratio', String(image.width / image.height));
     const button = document.createElement('button');
     button.type = 'button';
     button.dataset.imageIndex = index;
@@ -91,7 +92,7 @@
     const img = document.createElement('img');
     img.src = image.src1100;
     img.srcset = imgSet(image);
-    img.sizes = '(max-width: 760px) 100vw, (max-width: 1100px) 50vw, 33vw';
+    img.sizes = `(max-width: 760px) 100vw, (max-width: 1100px) ${Math.ceil(100 / Math.min(rowSize, 3))}vw, ${Math.ceil(100 / rowSize)}vw`;
     img.width = image.width;
     img.height = image.height;
     img.alt = image.alt;
@@ -100,6 +101,85 @@
     button.append(img);
     figure.append(button);
     return figure;
+  }
+
+  // Curated desktop rows create a steady visual rhythm while preserving every
+  // photograph's original proportions. New images that are added later are
+  // automatically placed into balanced extra rows.
+  const desktopRowCounts = {
+    people: [2, 4, 4, 3],
+    landscape: [4, 3, 5],
+    street: [4, 4, 4, 4, 5, 4],
+    wildlife: [4, 3, 3, 3],
+    events: [3, 4]
+  };
+
+  const galleryMode = () => window.innerWidth <= 760 ? 'mobile' : (window.innerWidth <= 1100 ? 'tablet' : 'desktop');
+
+  function autoRows(items, maxItems, targetRatio) {
+    const rows = [];
+    let row = [];
+    let ratioSum = 0;
+
+    items.forEach((item, itemIndex) => {
+      const ratio = item.image.width / item.image.height;
+      row.push(item);
+      ratioSum += ratio;
+      const next = items[itemIndex + 1];
+      const nextRatio = next ? next.image.width / next.image.height : 0;
+      const currentDistance = Math.abs(targetRatio - ratioSum);
+      const nextDistance = next ? Math.abs(targetRatio - (ratioSum + nextRatio)) : Infinity;
+      const shouldClose = row.length >= maxItems || !next || (row.length >= 2 && currentDistance <= nextDistance);
+      if (shouldClose) {
+        rows.push(row);
+        row = [];
+        ratioSum = 0;
+      }
+    });
+
+    // Avoid an isolated final image whenever the preceding row can share one.
+    if (rows.length > 1 && rows[rows.length - 1].length === 1 && rows[rows.length - 2].length > 2) {
+      rows[rows.length - 1].unshift(rows[rows.length - 2].pop());
+    }
+    return rows;
+  }
+
+  function createGalleryRows(images, category, mode) {
+    const indexed = images.map((image, index) => ({image, index}));
+    if (mode === 'mobile') return indexed.map(item => [item]);
+
+    if (mode === 'tablet') {
+      if (category === 'people' && indexed.length >= 2) {
+        return [indexed.slice(0, 2), ...autoRows(indexed.slice(2), 3, 2.25)];
+      }
+      return autoRows(indexed, 3, 2.35);
+    }
+
+    const counts = desktopRowCounts[category] || [];
+    const rows = [];
+    let cursor = 0;
+    counts.forEach(count => {
+      const row = indexed.slice(cursor, cursor + count);
+      if (row.length) rows.push(row);
+      cursor += count;
+    });
+    if (cursor < indexed.length) rows.push(...autoRows(indexed.slice(cursor), 4, 3.2));
+    return rows;
+  }
+
+  function renderBalancedGallery(root, images, category, mode) {
+    root.replaceChildren();
+    const rows = createGalleryRows(images, category, mode);
+    rows.forEach((items, rowIndex) => {
+      const row = document.createElement('div');
+      row.className = 'gallery-row';
+      row.dataset.rowSize = String(items.length);
+      if (category === 'people' && rowIndex === 0 && items.length === 2) row.classList.add('gallery-row--opening');
+      if (rowIndex === rows.length - 1) row.classList.add('gallery-row--last');
+      items.forEach(item => row.append(makePhoto(item.image, item.index, items.length)));
+      root.append(row);
+    });
+    observeReveals();
   }
 
 
@@ -116,22 +196,25 @@
     const heroMedia = qs('[data-gallery-hero-media]');
     setResponsiveHero(heroMedia, cat.heroDesktop, cat.heroMobile, cat.heroPositionDesktop, cat.heroPositionMobile);
     // Keep all selected photographs in the gallery, including the cover image.
-    // For People, the first two portraits form a deliberate opening pair:
-    // blue scarf on the left, red court portrait on the right.
+    // The first People row deliberately keeps the blue-scarf portrait on the
+    // left and the red-court portrait on the right.
     const galleryImages = cat.images;
-
     const rowsRoot = qs('[data-gallery-rows]');
     const galleryContent = rowsRoot.closest('.gallery-content');
-    if (category === 'people' && galleryImages.length >= 2) {
-      const featuredPair = document.createElement('div');
-      featuredPair.className = 'gallery-featured-pair';
-      featuredPair.append(makePhoto(galleryImages[0], 0));
-      featuredPair.append(makePhoto(galleryImages[1], 1));
-      galleryContent.insertBefore(featuredPair, rowsRoot);
-      galleryImages.slice(2).forEach((image, offset) => rowsRoot.append(makePhoto(image, offset + 2)));
-    } else {
-      galleryImages.forEach((image, index) => rowsRoot.append(makePhoto(image, index)));
-    }
+    let currentGalleryMode = galleryMode();
+    renderBalancedGallery(rowsRoot, galleryImages, category, currentGalleryMode);
+
+    let resizeTimer;
+    window.addEventListener('resize', () => {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(() => {
+        const nextMode = galleryMode();
+        if (nextMode !== currentGalleryMode) {
+          currentGalleryMode = nextMode;
+          renderBalancedGallery(rowsRoot, galleryImages, category, currentGalleryMode);
+        }
+      }, 140);
+    }, {passive: true});
 
     const currentIndex = data.categoryOrder.indexOf(category);
     const nextKey = data.categoryOrder[(currentIndex + 1) % data.categoryOrder.length];
