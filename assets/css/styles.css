@@ -284,3 +284,52 @@ img { max-width: 100%; display: block; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
 }
+
+/* V4: uncropped category covers and a curated opening pair in People */
+.project-card {
+  min-height: 0 !important;
+  overflow: hidden;
+}
+.project-card__media {
+  position: relative;
+  inset: auto;
+  width: 100%;
+  height: auto;
+}
+.project-card__media img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  object-position: center;
+}
+.project-card::after {
+  pointer-events: none;
+}
+
+.gallery-featured-pair {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(12px, 1.5vw, 24px);
+  max-width: 1500px;
+  margin: 0 auto clamp(12px, 1.5vw, 24px);
+  align-items: start;
+}
+.gallery-featured-pair .gallery-item {
+  margin: 0;
+}
+.gallery-featured-pair .gallery-item img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+@media (max-width: 760px) {
+  .project-card:nth-child(n) {
+    min-height: 0 !important;
+  }
+  .gallery-featured-pair {
+    grid-template-columns: 1fr;
+    gap: 18px;
+    margin-bottom: 18px;
+  }
+}

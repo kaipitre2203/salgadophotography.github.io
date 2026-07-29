@@ -115,12 +115,23 @@
     qs('[data-gallery-description]').textContent = cat.description;
     const heroMedia = qs('[data-gallery-hero-media]');
     setResponsiveHero(heroMedia, cat.heroDesktop, cat.heroMobile, cat.heroPositionDesktop, cat.heroPositionMobile);
-    const mobileLayout = window.matchMedia('(max-width: 760px)').matches;
-    const activeHero = mobileLayout ? cat.heroMobile : cat.heroDesktop;
-    const galleryImages = cat.images.filter(image => image.source !== activeHero.source);
+    // Keep all selected photographs in the gallery, including the cover image.
+    // For People, the first two portraits form a deliberate opening pair:
+    // blue scarf on the left, red court portrait on the right.
+    const galleryImages = cat.images;
 
     const rowsRoot = qs('[data-gallery-rows]');
-    galleryImages.forEach((image, index) => rowsRoot.append(makePhoto(image, index)));
+    const galleryContent = rowsRoot.closest('.gallery-content');
+    if (category === 'people' && galleryImages.length >= 2) {
+      const featuredPair = document.createElement('div');
+      featuredPair.className = 'gallery-featured-pair';
+      featuredPair.append(makePhoto(galleryImages[0], 0));
+      featuredPair.append(makePhoto(galleryImages[1], 1));
+      galleryContent.insertBefore(featuredPair, rowsRoot);
+      galleryImages.slice(2).forEach((image, offset) => rowsRoot.append(makePhoto(image, offset + 2)));
+    } else {
+      galleryImages.forEach((image, index) => rowsRoot.append(makePhoto(image, index)));
+    }
 
     const currentIndex = data.categoryOrder.indexOf(category);
     const nextKey = data.categoryOrder[(currentIndex + 1) % data.categoryOrder.length];
@@ -151,7 +162,7 @@
       document.body.classList.remove('lightbox-open');
     };
     const move = delta => { active = (active + delta + galleryImages.length) % galleryImages.length; renderLightbox(); };
-    rowsRoot.addEventListener('click', e => {
+    galleryContent.addEventListener('click', e => {
       const button = e.target.closest('[data-image-index]');
       if (button) openLightbox(button.dataset.imageIndex);
     });
