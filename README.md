@@ -62,3 +62,10 @@ python3 -m http.server 8000
 ```
 
 Then open `http://localhost:8000`.
+
+## Version 2 update
+
+- Uses the new portrait `Hochzeit-87.jpg` on the About page.
+- Removes all references to “Authentic View”.
+- Adds a clear commercial focus for companies, restaurants, cafés and organisations.
+- Displays gallery images in a compact responsive layout: three columns on desktop, two on tablets and one on smartphones.

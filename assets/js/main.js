@@ -86,7 +86,7 @@
     const img = document.createElement('img');
     img.src = image.src1100;
     img.srcset = imgSet(image);
-    img.sizes = image.orientation === 'landscape' ? '(max-width: 760px) 100vw, 92vw' : '(max-width: 760px) 100vw, 48vw';
+    img.sizes = '(max-width: 760px) 100vw, (max-width: 1100px) 50vw, 33vw';
     img.width = image.width;
     img.height = image.height;
     img.alt = image.alt;
@@ -97,38 +97,6 @@
     return figure;
   }
 
-  function groupImages(images) {
-    const rows = [];
-    let i = 0;
-    let mixedFlip = false;
-    while (i < images.length) {
-      const current = images[i];
-      if (current.layout === 'full' || current.orientation === 'landscape') {
-        rows.push({type:'single', items:[{image:current,index:i}]});
-        i += 1;
-        continue;
-      }
-      const next = images[i + 1];
-      if (!next) {
-        rows.push({type:'single', items:[{image:current,index:i}]});
-        i += 1;
-        continue;
-      }
-      if (next.layout === 'full') {
-        rows.push({type:'single', items:[{image:current,index:i}]});
-        i += 1;
-        continue;
-      }
-      if (next.orientation === 'landscape') {
-        rows.push({type:mixedFlip ? 'mixed-right' : 'mixed-left', items:[{image:current,index:i},{image:next,index:i+1}]});
-        mixedFlip = !mixedFlip;
-      } else {
-        rows.push({type:'pair', items:[{image:current,index:i},{image:next,index:i+1}]});
-      }
-      i += 2;
-    }
-    return rows;
-  }
 
   const galleryPage = qs('[data-gallery-page]');
   if (galleryPage) {
@@ -147,12 +115,7 @@
     const galleryImages = cat.images.filter(image => image.source !== activeHero.source);
 
     const rowsRoot = qs('[data-gallery-rows]');
-    groupImages(galleryImages).forEach(rowData => {
-      const row = document.createElement('div');
-      row.className = `gallery-row gallery-row--${rowData.type}`;
-      rowData.items.forEach(item => row.append(makePhoto(item.image, item.index)));
-      rowsRoot.append(row);
-    });
+    galleryImages.forEach((image, index) => rowsRoot.append(makePhoto(image, index)));
 
     const currentIndex = data.categoryOrder.indexOf(category);
     const nextKey = data.categoryOrder[(currentIndex + 1) % data.categoryOrder.length];
@@ -208,9 +171,12 @@
   const aboutCopy = qs('[data-about-copy]');
   if (aboutCopy) {
     setCurrentNav();
-    const image = data.categories.people.heroMobile;
-    qs('[data-about-image]').style.backgroundImage = bg(image, '1100');
-    qs('[data-about-image]').style.backgroundPosition = 'center 28%';
+    const image = data.site.aboutImage || data.categories.people.heroMobile;
+    const aboutImage = qs('[data-about-image]');
+    aboutImage.style.backgroundImage = bg(image, '1100');
+    aboutImage.style.backgroundPosition = 'center';
+    aboutImage.setAttribute('role', 'img');
+    aboutImage.setAttribute('aria-label', image.alt || 'Portrait of Kai Pitre Salgado');
     data.site.about.forEach(text => {
       const p = document.createElement('p'); p.textContent = text; aboutCopy.append(p);
     });

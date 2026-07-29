@@ -11,15 +11,26 @@ window.SITE_DATA = {
     "about": [
       "Hi there and welcome to my website!",
       "My name is Kai Pitre Salgado. I am 28 years old, live in Bern, Switzerland, and photography is my greatest passion.",
-      "What began as a personal way of observing the world has grown into a project I now share with others. Through Authentic View, I work in Switzerland’s cities and landscapes, capturing moments as they unfold.",
+      "What began as a personal way of observing the world has grown into a project I now share with others. Through Kai Salgado Photography, I capture people, places, and moments as they unfold – in Switzerland and wherever my camera takes me.",
       "Photography is, to me, one of the most beautiful forms of expression. It allows us to create art, preserve memories, show how we see the world, and document how life evolves over time. Images can reveal stories, emotions, and perspectives – often in ways words cannot.",
       "A photograph does not need to capture everything to be meaningful. Its strength lies in its ability to distill a moment into a single frame. Even without sound, warmth, or scent, an image can bring us back to a certain feeling, awakening memories and emotions connected to that moment.",
-      "When I work with people, my focus lies on presence, atmosphere, and the small, often unnoticed details that make each moment unique. Through openness, trust, and shared time, images emerge that go beyond surface and offer an honest impression. The more natural and at ease a moment feels, the more authentic the view becomes.",
-      "For me, photography is about getting as close as possible to the feeling of that very moment. A strong image invites you to pause, look again, and reconnect with what was experienced – the authentic view just before I pressed the shutter.",
+      "Alongside my personal and documentary work, I collaborate with companies, restaurants, cafés, cultural organisations, and other local businesses. I create visual material for websites, social media, campaigns, events, menus, and other forms of public communication – always with the aim of showing the character, atmosphere, and people behind a place or project.",
+      "When I work with people or businesses, my focus lies on presence, atmosphere, and the small, often unnoticed details that make each moment unique. Through openness, trust, and shared time, images emerge that go beyond the surface and offer an honest impression.",
+      "I prefer natural situations and a relaxed approach. The more comfortable a moment feels, the more genuine the resulting images become. My goal is to create photographs that not only look strong, but also feel true to the people, spaces, and stories they represent.",
+      "For me, photography is about getting as close as possible to the feeling of that very moment. A strong image invites you to pause, look again, and reconnect with what was experienced just before I pressed the shutter.",
       "I hope to see you soon.",
       "Kai"
     ],
-    "instagramHandle": "@kai.pitre.sgd"
+    "instagramHandle": "@kai.pitre.sgd",
+    "aboutImage": {
+      "source": "Hochzeit-87.jpg",
+      "alt": "Portrait of Kai Pitre Salgado at an outdoor event",
+      "width": 1365,
+      "height": 2048,
+      "src640": "assets/images/about/kai-about-640.webp",
+      "src1100": "assets/images/about/kai-about-1100.webp",
+      "src1800": "assets/images/about/kai-about-1365.webp"
+    }
   },
   "categoryOrder": [
     "people",
