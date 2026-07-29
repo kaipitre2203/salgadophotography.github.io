@@ -44,17 +44,28 @@ window.SITE_DATA = {
       "title": "People",
       "description": "Portraits, relationships and moments of connection.",
       "hero": {
-        "source": "DSCF0140.jpg",
-        "alt": "Family sitting together on outdoor steps",
-        "layout": "full",
-        "orientation": "landscape",
-        "width": 2048,
-        "height": 1365,
-        "src640": "assets/images/people/dscf0140-640.webp",
-        "src1100": "assets/images/people/dscf0140-1100.webp",
-        "src1800": "assets/images/people/dscf0140-1800.webp"
+        "source": "DSCF7337-2.jpg",
+        "alt": "Street portrait of a person with a bright blue scarf holding a longboard",
+        "layout": "auto",
+        "orientation": "portrait",
+        "width": 1365,
+        "height": 2048,
+        "src640": "assets/images/people/dscf7337-2-640.webp",
+        "src1100": "assets/images/people/dscf7337-2-1100.webp",
+        "src1800": "assets/images/people/dscf7337-2-1365.webp"
       },
       "images": [
+        {
+          "source": "DSCF7337-2.jpg",
+          "alt": "Street portrait of a person with a bright blue scarf holding a longboard",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1365,
+          "height": 2048,
+          "src640": "assets/images/people/dscf7337-2-640.webp",
+          "src1100": "assets/images/people/dscf7337-2-1100.webp",
+          "src1800": "assets/images/people/dscf7337-2-1365.webp"
+        },
         {
           "source": "000095280008.jpg",
           "alt": "Portrait of a woman on a red sports court",
@@ -189,29 +200,29 @@ window.SITE_DATA = {
         }
       ],
       "heroDesktop": {
-        "source": "DSCF0140.jpg",
-        "alt": "Family sitting together on outdoor steps",
-        "layout": "full",
-        "orientation": "landscape",
-        "width": 2048,
-        "height": 1365,
-        "src640": "assets/images/people/dscf0140-640.webp",
-        "src1100": "assets/images/people/dscf0140-1100.webp",
-        "src1800": "assets/images/people/dscf0140-1800.webp"
+        "source": "DSCF7337-2.jpg",
+        "alt": "Street portrait of a person with a bright blue scarf holding a longboard",
+        "layout": "auto",
+        "orientation": "portrait",
+        "width": 1365,
+        "height": 2048,
+        "src640": "assets/images/people/dscf7337-2-640.webp",
+        "src1100": "assets/images/people/dscf7337-2-1100.webp",
+        "src1800": "assets/images/people/dscf7337-2-1365.webp"
       },
       "heroMobile": {
-        "source": "000095280008.jpg",
-        "alt": "Portrait of a woman on a red sports court",
-        "layout": "full",
+        "source": "DSCF7337-2.jpg",
+        "alt": "Street portrait of a person with a bright blue scarf holding a longboard",
+        "layout": "auto",
         "orientation": "portrait",
-        "width": 1357,
+        "width": 1365,
         "height": 2048,
-        "src640": "assets/images/people/000095280008-640.webp",
-        "src1100": "assets/images/people/000095280008-1100.webp",
-        "src1800": "assets/images/people/000095280008-1800.webp"
+        "src640": "assets/images/people/dscf7337-2-640.webp",
+        "src1100": "assets/images/people/dscf7337-2-1100.webp",
+        "src1800": "assets/images/people/dscf7337-2-1365.webp"
       },
-      "heroPositionDesktop": "center",
-      "heroPositionMobile": "center 28%"
+      "heroPositionDesktop": "center 38%",
+      "heroPositionMobile": "center 35%"
     },
     "landscape": {
       "title": "Landscape",
@@ -373,32 +384,32 @@ window.SITE_DATA = {
         "src1800": "assets/images/landscape/dscf8317-2-1800.webp"
       },
       "heroMobile": {
-        "source": "35E54A18-6050-47F4-A1AA-0DB2DE00106E.jpg",
-        "alt": "A person standing beside a mountain lake at sunrise",
+        "source": "DSCF8317-2.jpg",
+        "alt": "A lone person walking across a beach beneath dark storm clouds",
         "layout": "full",
-        "orientation": "portrait",
-        "width": 1284,
-        "height": 1926,
-        "src640": "assets/images/landscape/35e54a18-6050-47f4-a1aa-0db2de00106e-640.webp",
-        "src1100": "assets/images/landscape/35e54a18-6050-47f4-a1aa-0db2de00106e-1100.webp",
-        "src1800": "assets/images/landscape/35e54a18-6050-47f4-a1aa-0db2de00106e-1800.webp"
+        "orientation": "landscape",
+        "width": 2048,
+        "height": 1365,
+        "src640": "assets/images/landscape/dscf8317-2-640.webp",
+        "src1100": "assets/images/landscape/dscf8317-2-1100.webp",
+        "src1800": "assets/images/landscape/dscf8317-2-1800.webp"
       },
       "heroPositionDesktop": "center",
-      "heroPositionMobile": "center 68%"
+      "heroPositionMobile": "center"
     },
     "street": {
       "title": "Street",
       "description": "Urban rhythm, architecture and spontaneous encounters.",
       "hero": {
-        "source": "DSCF0270.jpg",
-        "alt": "A red brick city bridge spanning a river",
+        "source": "DSCF0823.jpg",
+        "alt": "A person in a blue coat walking past balconies and graffiti",
         "layout": "full",
-        "orientation": "landscape",
-        "width": 2048,
-        "height": 1365,
-        "src640": "assets/images/street/dscf0270-640.webp",
-        "src1100": "assets/images/street/dscf0270-1100.webp",
-        "src1800": "assets/images/street/dscf0270-1800.webp"
+        "orientation": "portrait",
+        "width": 1434,
+        "height": 2048,
+        "src640": "assets/images/street/dscf0823-640.webp",
+        "src1100": "assets/images/street/dscf0823-1100.webp",
+        "src1800": "assets/images/street/dscf0823-1800.webp"
       },
       "images": [
         {
@@ -678,15 +689,15 @@ window.SITE_DATA = {
         }
       ],
       "heroDesktop": {
-        "source": "DSCF0270.jpg",
-        "alt": "A red brick city bridge spanning a river",
+        "source": "DSCF0823.jpg",
+        "alt": "A person in a blue coat walking past balconies and graffiti",
         "layout": "full",
-        "orientation": "landscape",
-        "width": 2048,
-        "height": 1365,
-        "src640": "assets/images/street/dscf0270-640.webp",
-        "src1100": "assets/images/street/dscf0270-1100.webp",
-        "src1800": "assets/images/street/dscf0270-1800.webp"
+        "orientation": "portrait",
+        "width": 1434,
+        "height": 2048,
+        "src640": "assets/images/street/dscf0823-640.webp",
+        "src1100": "assets/images/street/dscf0823-1100.webp",
+        "src1800": "assets/images/street/dscf0823-1800.webp"
       },
       "heroMobile": {
         "source": "DSCF0823.jpg",
@@ -700,21 +711,21 @@ window.SITE_DATA = {
         "src1800": "assets/images/street/dscf0823-1800.webp"
       },
       "heroPositionDesktop": "center",
-      "heroPositionMobile": "center 68%"
+      "heroPositionMobile": "center"
     },
     "wildlife": {
       "title": "Wildlife",
       "description": "Animals observed across habitats, from intimate detail to open landscape.",
       "hero": {
-        "source": "DSCF5811.jpg",
-        "alt": "A male lion standing among dry branches",
+        "source": "elephant.jpg",
+        "alt": "An elephant walking directly toward the camera on a dirt road",
         "layout": "full",
-        "orientation": "landscape",
-        "width": 2048,
-        "height": 1365,
-        "src640": "assets/images/wildlife/dscf5811-640.webp",
-        "src1100": "assets/images/wildlife/dscf5811-1100.webp",
-        "src1800": "assets/images/wildlife/dscf5811-1800.webp"
+        "orientation": "portrait",
+        "width": 1365,
+        "height": 2048,
+        "src640": "assets/images/wildlife/elephant-640.webp",
+        "src1100": "assets/images/wildlife/elephant-1100.webp",
+        "src1800": "assets/images/wildlife/elephant-1800.webp"
       },
       "images": [
         {
@@ -862,15 +873,15 @@ window.SITE_DATA = {
         }
       ],
       "heroDesktop": {
-        "source": "DSCF5811.jpg",
-        "alt": "A male lion standing among dry branches",
+        "source": "elephant.jpg",
+        "alt": "An elephant walking directly toward the camera on a dirt road",
         "layout": "full",
-        "orientation": "landscape",
-        "width": 2048,
-        "height": 1365,
-        "src640": "assets/images/wildlife/dscf5811-640.webp",
-        "src1100": "assets/images/wildlife/dscf5811-1100.webp",
-        "src1800": "assets/images/wildlife/dscf5811-1800.webp"
+        "orientation": "portrait",
+        "width": 1365,
+        "height": 2048,
+        "src640": "assets/images/wildlife/elephant-640.webp",
+        "src1100": "assets/images/wildlife/elephant-1100.webp",
+        "src1800": "assets/images/wildlife/elephant-1800.webp"
       },
       "heroMobile": {
         "source": "elephant.jpg",
@@ -884,21 +895,21 @@ window.SITE_DATA = {
         "src1800": "assets/images/wildlife/elephant-1800.webp"
       },
       "heroPositionDesktop": "center",
-      "heroPositionMobile": "center 58%"
+      "heroPositionMobile": "center"
     },
     "events": {
       "title": "Events",
       "description": "Conferences, workshops and shared professional moments.",
       "hero": {
-        "source": "DSCF5371.jpg",
-        "alt": "A panel discussion with four speakers on stage",
+        "source": "DSCF0270.jpg",
+        "alt": "A red brick city bridge spanning a river",
         "layout": "full",
         "orientation": "landscape",
         "width": 2048,
         "height": 1365,
-        "src640": "assets/images/events/dscf5371-640.webp",
-        "src1100": "assets/images/events/dscf5371-1100.webp",
-        "src1800": "assets/images/events/dscf5371-1800.webp"
+        "src640": "assets/images/street/dscf0270-640.webp",
+        "src1100": "assets/images/street/dscf0270-1100.webp",
+        "src1800": "assets/images/street/dscf0270-1800.webp"
       },
       "images": [
         {
@@ -980,26 +991,26 @@ window.SITE_DATA = {
         }
       ],
       "heroDesktop": {
-        "source": "DSCF5371.jpg",
-        "alt": "A panel discussion with four speakers on stage",
+        "source": "DSCF0270.jpg",
+        "alt": "A red brick city bridge spanning a river",
         "layout": "full",
         "orientation": "landscape",
         "width": 2048,
         "height": 1365,
-        "src640": "assets/images/events/dscf5371-640.webp",
-        "src1100": "assets/images/events/dscf5371-1100.webp",
-        "src1800": "assets/images/events/dscf5371-1800.webp"
+        "src640": "assets/images/street/dscf0270-640.webp",
+        "src1100": "assets/images/street/dscf0270-1100.webp",
+        "src1800": "assets/images/street/dscf0270-1800.webp"
       },
       "heroMobile": {
-        "source": "DSCF5352-2.jpg",
-        "alt": "Two speakers in conversation during a panel discussion",
-        "layout": "auto",
-        "orientation": "portrait",
-        "width": 1365,
-        "height": 2048,
-        "src640": "assets/images/events/dscf5352-2-640.webp",
-        "src1100": "assets/images/events/dscf5352-2-1100.webp",
-        "src1800": "assets/images/events/dscf5352-2-1800.webp"
+        "source": "DSCF0270.jpg",
+        "alt": "A red brick city bridge spanning a river",
+        "layout": "full",
+        "orientation": "landscape",
+        "width": 2048,
+        "height": 1365,
+        "src640": "assets/images/street/dscf0270-640.webp",
+        "src1100": "assets/images/street/dscf0270-1100.webp",
+        "src1800": "assets/images/street/dscf0270-1800.webp"
       },
       "heroPositionDesktop": "center",
       "heroPositionMobile": "center"

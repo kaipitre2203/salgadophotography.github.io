@@ -65,8 +65,13 @@
       article.className = 'project-card reveal';
       article.href = `gallery.html?category=${key}`;
       article.setAttribute('aria-label', `Open ${cat.title} gallery`);
+      const desktopHero = cat.heroDesktop || cat.hero;
+      const mobileHero = cat.heroMobile || desktopHero;
       article.innerHTML = `
-        <div class="project-card__media" style="--card-desktop:${bg(cat.heroDesktop, '1100')};--card-mobile:${bg(cat.heroMobile, '1100')};background-position:${cat.heroPositionDesktop};"></div>
+        <picture class="project-card__media">
+          <source media="(max-width: 760px)" srcset="${mobileHero.src640} 640w, ${mobileHero.src1100} 1100w" sizes="100vw">
+          <img src="${desktopHero.src1100}" srcset="${imgSet(desktopHero)}" sizes="(max-width: 760px) 100vw, 55vw" alt="${desktopHero.alt}" loading="lazy" decoding="async">
+        </picture>
         <div class="project-card__content">
           <h3>${cat.title}</h3>
           <p>${cat.description}</p>
@@ -190,11 +195,18 @@
   if (contactDetails) {
     setCurrentNav();
     const links = [{label:data.site.email, href:`mailto:${data.site.email}`}];
-    if (data.site.instagram) links.push({label:data.site.instagramHandle || 'Instagram', href:data.site.instagram});
+    if (data.site.instagram) links.push({label:`Instagram · ${data.site.instagramHandle || '@kai.pitre.sgd'}`, href:data.site.instagram, icon:'instagram'});
     if (data.site.linkedin) links.push({label:'LinkedIn', href:data.site.linkedin});
     links.forEach(link => {
       const a = document.createElement('a');
-      a.href = link.href; a.textContent = link.label;
+      a.href = link.href;
+      if (link.icon === 'instagram') {
+        a.className = 'contact-link contact-link--instagram';
+        a.innerHTML = `<svg aria-hidden="true" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.4" cy="6.6" r="1"></circle></svg><span>${link.label}</span>`;
+      } else {
+        a.className = 'contact-link';
+        a.textContent = link.label;
+      }
       if (link.href.startsWith('http')) { a.target = '_blank'; a.rel = 'noopener'; }
       contactDetails.append(a);
     });
