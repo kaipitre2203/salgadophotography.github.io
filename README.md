@@ -71,5 +71,5 @@ Then open `http://localhost:8000`.
 - Displays gallery images in a compact responsive layout: three columns on desktop, two on tablets and one on smartphones.
 
 
-## V5 homepage layout
+## V6 homepage layout
 The homepage category covers use a balanced responsive grid: three equal cards followed by two centred cards on desktop, two columns on tablets, and one column on phones.

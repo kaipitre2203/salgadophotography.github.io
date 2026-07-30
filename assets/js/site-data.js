@@ -67,6 +67,17 @@ window.SITE_DATA = {
           "src1800": "assets/images/people/dscf7337-2-1365.webp"
         },
         {
+          "source": "DSCF0528.jpg",
+          "alt": "Portrait of a smiling man in a blue suit at an outdoor gathering",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1365,
+          "height": 2048,
+          "src640": "assets/images/people/dscf0528-640.webp",
+          "src1100": "assets/images/people/dscf0528-1100.webp",
+          "src1800": "assets/images/people/dscf0528-1365.webp"
+        },
+        {
           "source": "000095280008.jpg",
           "alt": "Portrait of a woman on a red sports court",
           "layout": "full",
@@ -76,6 +87,28 @@ window.SITE_DATA = {
           "src640": "assets/images/people/000095280008-640.webp",
           "src1100": "assets/images/people/000095280008-1100.webp",
           "src1800": "assets/images/people/000095280008-1800.webp"
+        },
+        {
+          "source": "DSCF0325.jpg",
+          "alt": "Backlit street portrait of a bearded man in a dark jacket",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1365,
+          "height": 2048,
+          "src640": "assets/images/people/dscf0325-640.webp",
+          "src1100": "assets/images/people/dscf0325-1100.webp",
+          "src1800": "assets/images/people/dscf0325-1365.webp"
+        },
+        {
+          "source": "DSCF0115.jpg",
+          "alt": "A smiling couple standing together at a bright outdoor celebration",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1365,
+          "height": 2048,
+          "src640": "assets/images/people/dscf0115-640.webp",
+          "src1100": "assets/images/people/dscf0115-1100.webp",
+          "src1800": "assets/images/people/dscf0115-1365.webp"
         },
         {
           "source": "DSCF0140.jpg",
@@ -435,6 +468,17 @@ window.SITE_DATA = {
       },
       "images": [
         {
+          "source": "DSCF1046.jpg",
+          "alt": "Modern glass tower beneath dramatic clouds in Zurich",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1365,
+          "height": 2048,
+          "src640": "assets/images/street/dscf1046-640.webp",
+          "src1100": "assets/images/street/dscf1046-1100.webp",
+          "src1800": "assets/images/street/dscf1046-1365.webp"
+        },
+        {
           "source": "DSCF0823.jpg",
           "alt": "A person in a blue coat walking past balconies and graffiti",
           "layout": "full",
@@ -735,15 +779,15 @@ window.SITE_DATA = {
       "heroPositionDesktop": "center",
       "heroPositionMobile": "center",
       "cover": {
-        "source": "DSCF0823.jpg",
-        "alt": "A person in a blue coat walking past balconies and graffiti",
-        "layout": "full",
+        "source": "DSCF1046.jpg",
+        "alt": "Modern glass tower beneath dramatic clouds in Zurich",
+        "layout": "auto",
         "orientation": "portrait",
-        "width": 1434,
+        "width": 1365,
         "height": 2048,
-        "src640": "assets/images/street/dscf0823-640.webp",
-        "src1100": "assets/images/street/dscf0823-1100.webp",
-        "src1800": "assets/images/street/dscf0823-1800.webp"
+        "src640": "assets/images/street/dscf1046-640.webp",
+        "src1100": "assets/images/street/dscf1046-1100.webp",
+        "src1800": "assets/images/street/dscf1046-1365.webp"
       }
     },
     "wildlife": {
@@ -956,6 +1000,28 @@ window.SITE_DATA = {
         "src1800": "assets/images/street/dscf0270-1800.webp"
       },
       "images": [
+        {
+          "source": "DSCF5130.jpg",
+          "alt": "An older man speaking at a lectern during a Swiss Young Academy event",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1365,
+          "height": 2048,
+          "src640": "assets/images/events/dscf5130-640.webp",
+          "src1100": "assets/images/events/dscf5130-1100.webp",
+          "src1800": "assets/images/events/dscf5130-1365.webp"
+        },
+        {
+          "source": "DSCF5338.jpg",
+          "alt": "Four speakers seated on stage during a panel discussion",
+          "layout": "full",
+          "orientation": "landscape",
+          "width": 2048,
+          "height": 1365,
+          "src640": "assets/images/events/dscf5338-640.webp",
+          "src1100": "assets/images/events/dscf5338-1100.webp",
+          "src1800": "assets/images/events/dscf5338-1800.webp"
+        },
         {
           "source": "DSCF5371.jpg",
           "alt": "A panel discussion with four speakers on stage",
