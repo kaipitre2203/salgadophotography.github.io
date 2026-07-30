@@ -62,3 +62,7 @@ python3 tools/add_image.py /path/to/photo.jpg street \
 For a full-width gallery image, add `--full`.
 
 The script creates three responsive WebP versions and adds the photo to `site-data.js`.
+
+
+## V5 homepage layout
+The homepage category covers use a balanced responsive grid: three equal cards followed by two centred cards on desktop, two columns on tablets, and one column on phones.

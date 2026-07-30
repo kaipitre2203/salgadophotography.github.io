@@ -71,8 +71,5 @@ Then open `http://localhost:8000`.
 - Displays gallery images in a compact responsive layout: three columns on desktop, two on tablets and one on smartphones.
 
 
-## V5 update
-The home-page work heading is smaller, category cards retain their natural image proportions without black gaps, and Events uses a panel-discussion cover from the Events gallery.
-
-## Version 6 gallery layout
-The galleries use curated justified rows on desktop, automatically balanced rows on tablets, and a single-column sequence on phones. Original image proportions are preserved without cropping.
+## V5 homepage layout
+The homepage category covers use a balanced responsive grid: three equal cards followed by two centred cards on desktop, two columns on tablets, and one column on phones.

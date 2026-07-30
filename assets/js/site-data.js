@@ -222,7 +222,18 @@ window.SITE_DATA = {
         "src1800": "assets/images/people/dscf7337-2-1365.webp"
       },
       "heroPositionDesktop": "center 38%",
-      "heroPositionMobile": "center 35%"
+      "heroPositionMobile": "center 35%",
+      "cover": {
+        "source": "DSCF7337-2.jpg",
+        "alt": "Street portrait of a person with a bright blue scarf holding a longboard",
+        "layout": "auto",
+        "orientation": "portrait",
+        "width": 1365,
+        "height": 2048,
+        "src640": "assets/images/people/dscf7337-2-640.webp",
+        "src1100": "assets/images/people/dscf7337-2-1100.webp",
+        "src1800": "assets/images/people/dscf7337-2-1365.webp"
+      }
     },
     "landscape": {
       "title": "Landscape",
@@ -317,17 +328,6 @@ window.SITE_DATA = {
           "src1800": "assets/images/landscape/dscf7167-1800.webp"
         },
         {
-          "source": "DSCF6873-2.jpg",
-          "alt": "A person carrying firewood across a quiet forest clearing",
-          "layout": "full",
-          "orientation": "landscape",
-          "width": 2048,
-          "height": 1365,
-          "src640": "assets/images/landscape/dscf6873-2-640.webp",
-          "src1100": "assets/images/landscape/dscf6873-2-1100.webp",
-          "src1800": "assets/images/landscape/dscf6873-2-1800.webp"
-        },
-        {
           "source": "DSCF7975.jpg",
           "alt": "Rocky sea cliffs framed by soft coastal flowers",
           "layout": "auto",
@@ -370,6 +370,17 @@ window.SITE_DATA = {
           "src640": "assets/images/landscape/img-6805-640.webp",
           "src1100": "assets/images/landscape/img-6805-1100.webp",
           "src1800": "assets/images/landscape/img-6805-1800.webp"
+        },
+        {
+          "source": "DSCF6873-2.jpg",
+          "alt": "A person carrying firewood across a quiet forest clearing",
+          "layout": "full",
+          "orientation": "landscape",
+          "width": 2048,
+          "height": 1365,
+          "src640": "assets/images/landscape/dscf6873-2-640.webp",
+          "src1100": "assets/images/landscape/dscf6873-2-1100.webp",
+          "src1800": "assets/images/landscape/dscf6873-2-1800.webp"
         }
       ],
       "heroDesktop": {
@@ -395,7 +406,18 @@ window.SITE_DATA = {
         "src1800": "assets/images/landscape/dscf8317-2-1800.webp"
       },
       "heroPositionDesktop": "center",
-      "heroPositionMobile": "center"
+      "heroPositionMobile": "center",
+      "cover": {
+        "source": "DSCF2459.jpg",
+        "alt": "A hiker facing snow-covered mountain peaks above a flower meadow",
+        "layout": "auto",
+        "orientation": "portrait",
+        "width": 1365,
+        "height": 2048,
+        "src640": "assets/images/landscape/dscf2459-640.webp",
+        "src1100": "assets/images/landscape/dscf2459-1100.webp",
+        "src1800": "assets/images/landscape/dscf2459-1800.webp"
+      }
     },
     "street": {
       "title": "Street",
@@ -711,7 +733,18 @@ window.SITE_DATA = {
         "src1800": "assets/images/street/dscf0823-1800.webp"
       },
       "heroPositionDesktop": "center",
-      "heroPositionMobile": "center"
+      "heroPositionMobile": "center",
+      "cover": {
+        "source": "DSCF0823.jpg",
+        "alt": "A person in a blue coat walking past balconies and graffiti",
+        "layout": "full",
+        "orientation": "portrait",
+        "width": 1434,
+        "height": 2048,
+        "src640": "assets/images/street/dscf0823-640.webp",
+        "src1100": "assets/images/street/dscf0823-1100.webp",
+        "src1800": "assets/images/street/dscf0823-1800.webp"
+      }
     },
     "wildlife": {
       "title": "Wildlife",
@@ -895,21 +928,32 @@ window.SITE_DATA = {
         "src1800": "assets/images/wildlife/elephant-1800.webp"
       },
       "heroPositionDesktop": "center",
-      "heroPositionMobile": "center"
+      "heroPositionMobile": "center",
+      "cover": {
+        "source": "elephant.jpg",
+        "alt": "An elephant walking directly toward the camera on a dirt road",
+        "layout": "full",
+        "orientation": "portrait",
+        "width": 1365,
+        "height": 2048,
+        "src640": "assets/images/wildlife/elephant-640.webp",
+        "src1100": "assets/images/wildlife/elephant-1100.webp",
+        "src1800": "assets/images/wildlife/elephant-1800.webp"
+      }
     },
     "events": {
       "title": "Events",
       "description": "Conferences, workshops and shared professional moments.",
       "hero": {
-        "source": "DSCF5371.jpg",
-        "alt": "A panel discussion with four speakers on stage",
+        "source": "DSCF0270.jpg",
+        "alt": "A red brick city bridge spanning a river",
         "layout": "full",
         "orientation": "landscape",
         "width": 2048,
         "height": 1365,
-        "src640": "assets/images/events/dscf5371-640.webp",
-        "src1100": "assets/images/events/dscf5371-1100.webp",
-        "src1800": "assets/images/events/dscf5371-1800.webp"
+        "src640": "assets/images/street/dscf0270-640.webp",
+        "src1100": "assets/images/street/dscf0270-1100.webp",
+        "src1800": "assets/images/street/dscf0270-1800.webp"
       },
       "images": [
         {
@@ -991,29 +1035,40 @@ window.SITE_DATA = {
         }
       ],
       "heroDesktop": {
-        "source": "DSCF5371.jpg",
-        "alt": "A panel discussion with four speakers on stage",
+        "source": "DSCF0270.jpg",
+        "alt": "A red brick city bridge spanning a river",
         "layout": "full",
         "orientation": "landscape",
         "width": 2048,
         "height": 1365,
-        "src640": "assets/images/events/dscf5371-640.webp",
-        "src1100": "assets/images/events/dscf5371-1100.webp",
-        "src1800": "assets/images/events/dscf5371-1800.webp"
+        "src640": "assets/images/street/dscf0270-640.webp",
+        "src1100": "assets/images/street/dscf0270-1100.webp",
+        "src1800": "assets/images/street/dscf0270-1800.webp"
       },
       "heroMobile": {
-        "source": "DSCF5371.jpg",
-        "alt": "A panel discussion with four speakers on stage",
+        "source": "DSCF0270.jpg",
+        "alt": "A red brick city bridge spanning a river",
         "layout": "full",
         "orientation": "landscape",
         "width": 2048,
         "height": 1365,
-        "src640": "assets/images/events/dscf5371-640.webp",
-        "src1100": "assets/images/events/dscf5371-1100.webp",
-        "src1800": "assets/images/events/dscf5371-1800.webp"
+        "src640": "assets/images/street/dscf0270-640.webp",
+        "src1100": "assets/images/street/dscf0270-1100.webp",
+        "src1800": "assets/images/street/dscf0270-1800.webp"
       },
       "heroPositionDesktop": "center",
-      "heroPositionMobile": "center"
+      "heroPositionMobile": "center",
+      "cover": {
+        "source": "DSCF5352-2.jpg",
+        "alt": "Two speakers in conversation during a panel discussion",
+        "layout": "auto",
+        "orientation": "portrait",
+        "width": 1365,
+        "height": 2048,
+        "src640": "assets/images/events/dscf5352-2-640.webp",
+        "src1100": "assets/images/events/dscf5352-2-1100.webp",
+        "src1800": "assets/images/events/dscf5352-2-1800.webp"
+      }
     }
   }
 };
