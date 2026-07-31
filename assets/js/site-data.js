@@ -78,6 +78,17 @@ window.SITE_DATA = {
           "src1800": "assets/images/people/000095280008-1800.webp"
         },
         {
+          "source": "CD2B54FB-7809-487C-AE09-2A2C339BC7D8_1_102_o.jpg",
+          "alt": "Portrait of a man wearing a yellow beanie and grey hoodie",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1357,
+          "height": 2048,
+          "src640": "assets/images/people/cd2b54fb-7809-487c-ae09-2a2c339bc7d8-1-102-o-640.webp",
+          "src1100": "assets/images/people/cd2b54fb-7809-487c-ae09-2a2c339bc7d8-1-102-o-1100.webp",
+          "src1800": "assets/images/people/cd2b54fb-7809-487c-ae09-2a2c339bc7d8-1-102-o-1357.webp"
+        },
+        {
           "source": "DSCF0325.jpg",
           "alt": "Backlit street portrait of a bearded man in a dark jacket",
           "layout": "auto",
@@ -98,6 +109,17 @@ window.SITE_DATA = {
           "src640": "assets/images/people/dscf0140-640.webp",
           "src1100": "assets/images/people/dscf0140-1100.webp",
           "src1800": "assets/images/people/dscf0140-1800.webp"
+        },
+        {
+          "source": "DSCF0577.jpg",
+          "alt": "A smiling woman holding a large autumn leaf",
+          "layout": "full",
+          "orientation": "landscape",
+          "width": 2048,
+          "height": 1365,
+          "src640": "assets/images/people/dscf0577-640.webp",
+          "src1100": "assets/images/people/dscf0577-1100.webp",
+          "src1800": "assets/images/people/dscf0577-1800.webp"
         },
         {
           "source": "Hochzeit-15.jpg",
@@ -122,6 +144,17 @@ window.SITE_DATA = {
           "src1800": "assets/images/people/hochzeit-70-1800.webp"
         },
         {
+          "source": "4DB848B5-2525-4FC1-9A0B-043AA842D687_1_102_o.jpg",
+          "alt": "A man sitting in a leafy courtyard between bicycles and a scooter",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1372,
+          "height": 2048,
+          "src640": "assets/images/people/4db848b5-2525-4fc1-9a0b-043aa842d687-1-102-o-640.webp",
+          "src1100": "assets/images/people/4db848b5-2525-4fc1-9a0b-043aa842d687-1-102-o-1100.webp",
+          "src1800": "assets/images/people/4db848b5-2525-4fc1-9a0b-043aa842d687-1-102-o-1372.webp"
+        },
+        {
           "source": "DSCF0362.jpg",
           "alt": "Two children standing in silhouette by a large window",
           "layout": "full",
@@ -144,6 +177,17 @@ window.SITE_DATA = {
           "src1800": "assets/images/people/dscf0978-1800.webp"
         },
         {
+          "source": "DSCF0020.jpg",
+          "alt": "A couple walking together through a sunlit old-town street",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1441,
+          "height": 2048,
+          "src640": "assets/images/people/dscf0020-640.webp",
+          "src1100": "assets/images/people/dscf0020-1100.webp",
+          "src1800": "assets/images/people/dscf0020-1441.webp"
+        },
+        {
           "source": "Hochzeit-106.jpg",
           "alt": "A man blowing a large soap bubble",
           "layout": "auto",
@@ -155,15 +199,15 @@ window.SITE_DATA = {
           "src1800": "assets/images/people/hochzeit-106-1800.webp"
         },
         {
-          "source": "IMG_1637.jpg",
-          "alt": "A musician playing bass guitar",
+          "source": "DSCF0024.jpg",
+          "alt": "A couple embracing in a quiet cobbled street",
           "layout": "auto",
           "orientation": "portrait",
-          "width": 1365,
+          "width": 1352,
           "height": 2048,
-          "src640": "assets/images/people/img-1637-640.webp",
-          "src1100": "assets/images/people/img-1637-1100.webp",
-          "src1800": "assets/images/people/img-1637-1800.webp"
+          "src640": "assets/images/people/dscf0024-640.webp",
+          "src1100": "assets/images/people/dscf0024-1100.webp",
+          "src1800": "assets/images/people/dscf0024-1352.webp"
         },
         {
           "source": "IMG_2620.jpg",
@@ -317,6 +361,17 @@ window.SITE_DATA = {
           "src1800": "assets/images/landscape/dscf7167-1800.webp"
         },
         {
+          "source": "DSCF6719.jpg",
+          "alt": "Purple coastal flowers beside a rocky shoreline and blue sea",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1365,
+          "height": 2048,
+          "src640": "assets/images/landscape/dscf6719-640.webp",
+          "src1100": "assets/images/landscape/dscf6719-1100.webp",
+          "src1800": "assets/images/landscape/dscf6719-1365.webp"
+        },
+        {
           "source": "DSCF7975.jpg",
           "alt": "Rocky sea cliffs framed by soft coastal flowers",
           "layout": "auto",
@@ -446,6 +501,17 @@ window.SITE_DATA = {
           "src1800": "assets/images/street/dscf0823-1800.webp"
         },
         {
+          "source": "DSCF6200-3.jpg",
+          "alt": "Two people sitting on a lakeside bench framed by tall trees and mountains",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1365,
+          "height": 2048,
+          "src640": "assets/images/street/dscf6200-3-640.webp",
+          "src1100": "assets/images/street/dscf6200-3-1100.webp",
+          "src1800": "assets/images/street/dscf6200-3-1365.webp"
+        },
+        {
           "source": "DSCF0813.jpg",
           "alt": "A person balancing a football in a leafy city square",
           "layout": "auto",
@@ -488,6 +554,17 @@ window.SITE_DATA = {
           "src640": "assets/images/street/dscf2030-topaz-sharpen-strong-denoise-640.webp",
           "src1100": "assets/images/street/dscf2030-topaz-sharpen-strong-denoise-1100.webp",
           "src1800": "assets/images/street/dscf2030-topaz-sharpen-strong-denoise-1800.webp"
+        },
+        {
+          "source": "DSCF7185.jpg",
+          "alt": "Market vendors working behind a vivid display of oranges and vegetables",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1365,
+          "height": 2048,
+          "src640": "assets/images/street/dscf7185-640.webp",
+          "src1100": "assets/images/street/dscf7185-1100.webp",
+          "src1800": "assets/images/street/dscf7185-1365.webp"
         },
         {
           "source": "DSCF2122.jpg",
@@ -534,6 +611,17 @@ window.SITE_DATA = {
           "src1800": "assets/images/street/dscf9310-1800.webp"
         },
         {
+          "source": "Luzern-15.jpg",
+          "alt": "A seated man by the lake framed between passing pedestrians",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1365,
+          "height": 2048,
+          "src640": "assets/images/street/luzern-15-640.webp",
+          "src1100": "assets/images/street/luzern-15-1100.webp",
+          "src1800": "assets/images/street/luzern-15-1365.webp"
+        },
+        {
           "source": "IMG_1513.jpg",
           "alt": "A steep city street leading toward a red building",
           "layout": "auto",
@@ -576,6 +664,17 @@ window.SITE_DATA = {
           "src640": "assets/images/street/img-1615-640.webp",
           "src1100": "assets/images/street/img-1615-1100.webp",
           "src1800": "assets/images/street/img-1615-1800.webp"
+        },
+        {
+          "source": "IMG_1584.jpg",
+          "alt": "A traveller waiting alone on a sunlit railway platform",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1365,
+          "height": 2048,
+          "src640": "assets/images/street/img-1584-640.webp",
+          "src1100": "assets/images/street/img-1584-1100.webp",
+          "src1800": "assets/images/street/img-1584-1365.webp"
         },
         {
           "source": "IMG_1625.jpg",
@@ -622,6 +721,17 @@ window.SITE_DATA = {
           "src1800": "assets/images/street/img-2630-1800.webp"
         },
         {
+          "source": "IMG_1592.jpg",
+          "alt": "A dense hillside cityscape of colourful buildings and tiled roofs",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1365,
+          "height": 2048,
+          "src640": "assets/images/street/img-1592-640.webp",
+          "src1100": "assets/images/street/img-1592-1100.webp",
+          "src1800": "assets/images/street/img-1592-1365.webp"
+        },
+        {
           "source": "IMG_2632.jpg",
           "alt": "A city tower reflected in a shallow pool at sunset",
           "layout": "auto",
@@ -664,6 +774,17 @@ window.SITE_DATA = {
           "src640": "assets/images/street/warsaw-640.webp",
           "src1100": "assets/images/street/warsaw-1100.webp",
           "src1800": "assets/images/street/warsaw-1800.webp"
+        },
+        {
+          "source": "DSCF4546.jpg",
+          "alt": "A red tram moving through Bern beneath rows of flags",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1365,
+          "height": 2048,
+          "src640": "assets/images/street/dscf4546-640.webp",
+          "src1100": "assets/images/street/dscf4546-1100.webp",
+          "src1800": "assets/images/street/dscf4546-1365.webp"
         },
         {
           "source": "DSCF0270.jpg",
@@ -990,6 +1111,17 @@ window.SITE_DATA = {
           "src1800": "assets/images/people/dscf0186-1800.webp"
         },
         {
+          "source": "DSCF3255.jpg",
+          "alt": "A singer and guitarist performing with a small outdoor band",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1365,
+          "height": 2048,
+          "src640": "assets/images/events/dscf3255-640.webp",
+          "src1100": "assets/images/events/dscf3255-1100.webp",
+          "src1800": "assets/images/events/dscf3255-1365.webp"
+        },
+        {
           "source": "Hochzeit-84.jpg",
           "alt": "People cooking together at an outdoor celebration",
           "layout": "auto",
@@ -1010,6 +1142,28 @@ window.SITE_DATA = {
           "src640": "assets/images/events/hochzeit-19-640.webp",
           "src1100": "assets/images/events/hochzeit-19-1100.webp",
           "src1800": "assets/images/events/hochzeit-19-1365.webp"
+        },
+        {
+          "source": "IMG_1637.jpg",
+          "alt": "A musician playing bass guitar",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1365,
+          "height": 2048,
+          "src640": "assets/images/people/img-1637-640.webp",
+          "src1100": "assets/images/people/img-1637-1100.webp",
+          "src1800": "assets/images/people/img-1637-1800.webp"
+        },
+        {
+          "source": "DSCF3249.jpg",
+          "alt": "Musicians playing electric guitar and bass during an outdoor performance",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1365,
+          "height": 2048,
+          "src640": "assets/images/events/dscf3249-640.webp",
+          "src1100": "assets/images/events/dscf3249-1100.webp",
+          "src1800": "assets/images/events/dscf3249-1365.webp"
         },
         {
           "source": "DSCF5130.jpg",
@@ -1043,6 +1197,17 @@ window.SITE_DATA = {
           "src640": "assets/images/events/dscf5371-640.webp",
           "src1100": "assets/images/events/dscf5371-1100.webp",
           "src1800": "assets/images/events/dscf5371-1800.webp"
+        },
+        {
+          "source": "DSCF3251.jpg",
+          "alt": "A drummer performing with an outdoor band",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1365,
+          "height": 2048,
+          "src640": "assets/images/events/dscf3251-640.webp",
+          "src1100": "assets/images/events/dscf3251-1100.webp",
+          "src1800": "assets/images/events/dscf3251-1365.webp"
         },
         {
           "source": "DSCF5352-2.jpg",
