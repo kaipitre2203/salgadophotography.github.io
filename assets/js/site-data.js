@@ -67,17 +67,6 @@ window.SITE_DATA = {
           "src1800": "assets/images/people/dscf7337-2-1365.webp"
         },
         {
-          "source": "DSCF0528.jpg",
-          "alt": "Portrait of a smiling man in a blue suit at an outdoor gathering",
-          "layout": "auto",
-          "orientation": "portrait",
-          "width": 1365,
-          "height": 2048,
-          "src640": "assets/images/people/dscf0528-640.webp",
-          "src1100": "assets/images/people/dscf0528-1100.webp",
-          "src1800": "assets/images/people/dscf0528-1365.webp"
-        },
-        {
           "source": "000095280008.jpg",
           "alt": "Portrait of a woman on a red sports court",
           "layout": "full",
@@ -100,17 +89,6 @@ window.SITE_DATA = {
           "src1800": "assets/images/people/dscf0325-1365.webp"
         },
         {
-          "source": "DSCF0115.jpg",
-          "alt": "A smiling couple standing together at a bright outdoor celebration",
-          "layout": "auto",
-          "orientation": "portrait",
-          "width": 1365,
-          "height": 2048,
-          "src640": "assets/images/people/dscf0115-640.webp",
-          "src1100": "assets/images/people/dscf0115-1100.webp",
-          "src1800": "assets/images/people/dscf0115-1365.webp"
-        },
-        {
           "source": "DSCF0140.jpg",
           "alt": "Family sitting together on outdoor steps",
           "layout": "full",
@@ -120,17 +98,6 @@ window.SITE_DATA = {
           "src640": "assets/images/people/dscf0140-640.webp",
           "src1100": "assets/images/people/dscf0140-1100.webp",
           "src1800": "assets/images/people/dscf0140-1800.webp"
-        },
-        {
-          "source": "DSCF0186.jpg",
-          "alt": "Three friends laughing together at a celebration",
-          "layout": "auto",
-          "orientation": "portrait",
-          "width": 1372,
-          "height": 2048,
-          "src640": "assets/images/people/dscf0186-640.webp",
-          "src1100": "assets/images/people/dscf0186-1100.webp",
-          "src1800": "assets/images/people/dscf0186-1800.webp"
         },
         {
           "source": "Hochzeit-15.jpg",
@@ -219,17 +186,6 @@ window.SITE_DATA = {
           "src640": "assets/images/people/dscf3626-2-640.webp",
           "src1100": "assets/images/people/dscf3626-2-1100.webp",
           "src1800": "assets/images/people/dscf3626-2-1800.webp"
-        },
-        {
-          "source": "Hochzeit-84.jpg",
-          "alt": "People cooking together at an outdoor celebration",
-          "layout": "auto",
-          "orientation": "portrait",
-          "width": 1365,
-          "height": 2048,
-          "src640": "assets/images/people/hochzeit-84-640.webp",
-          "src1100": "assets/images/people/hochzeit-84-1100.webp",
-          "src1800": "assets/images/people/hochzeit-84-1800.webp"
         }
       ],
       "heroDesktop": {
@@ -1000,6 +956,61 @@ window.SITE_DATA = {
         "src1800": "assets/images/street/dscf0270-1800.webp"
       },
       "images": [
+        {
+          "source": "DSCF0528.jpg",
+          "alt": "Portrait of a smiling man in a blue suit at an outdoor gathering",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1365,
+          "height": 2048,
+          "src640": "assets/images/people/dscf0528-640.webp",
+          "src1100": "assets/images/people/dscf0528-1100.webp",
+          "src1800": "assets/images/people/dscf0528-1365.webp"
+        },
+        {
+          "source": "DSCF0115.jpg",
+          "alt": "A smiling couple standing together at a bright outdoor celebration",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1365,
+          "height": 2048,
+          "src640": "assets/images/people/dscf0115-640.webp",
+          "src1100": "assets/images/people/dscf0115-1100.webp",
+          "src1800": "assets/images/people/dscf0115-1365.webp"
+        },
+        {
+          "source": "DSCF0186.jpg",
+          "alt": "Three friends laughing together at a celebration",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1372,
+          "height": 2048,
+          "src640": "assets/images/people/dscf0186-640.webp",
+          "src1100": "assets/images/people/dscf0186-1100.webp",
+          "src1800": "assets/images/people/dscf0186-1800.webp"
+        },
+        {
+          "source": "Hochzeit-84.jpg",
+          "alt": "People cooking together at an outdoor celebration",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1365,
+          "height": 2048,
+          "src640": "assets/images/people/hochzeit-84-640.webp",
+          "src1100": "assets/images/people/hochzeit-84-1100.webp",
+          "src1800": "assets/images/people/hochzeit-84-1800.webp"
+        },
+        {
+          "source": "Hochzeit-19.jpg",
+          "alt": "A guest holding a wine glass during an evening celebration beneath warm string lights",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1365,
+          "height": 2048,
+          "src640": "assets/images/events/hochzeit-19-640.webp",
+          "src1100": "assets/images/events/hochzeit-19-1100.webp",
+          "src1800": "assets/images/events/hochzeit-19-1365.webp"
+        },
         {
           "source": "DSCF5130.jpg",
           "alt": "An older man speaking at a lectern during a Swiss Young Academy event",
