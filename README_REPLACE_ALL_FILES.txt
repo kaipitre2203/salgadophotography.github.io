@@ -1,21 +1,26 @@
-SALGADO PHOTOGRAPHY — COMPLETE REPLACEMENT UPDATE
+SALGADO PHOTOGRAPHY – VOLLSTÄNDIGER ERSATZORDNER V5
 
-This package contains the complete website.
+Geändert wurde ausschliesslich der About-Text:
+- vollständiger deutscher Text
+- Alter 29 Jahre
+- persönliche Perspektive auf Fotografie
+- Fokus auf lokale Unternehmen und deren Web-/Social-Media-Auftritt
+- faire und transparente Preisgestaltung
+- Offenheit für unterschiedliche fotografische Aufträge
+- klares Interesse an Schweizer Tourismusorganisationen
+- schweizweite und bei Bedarf internationale Verfügbarkeit
 
-Fixed in this version:
-- The removed photo of the two children at the window is no longer referenced.
-- The visible alternative text and the large empty space in People are eliminated.
-- The following photographs move upward naturally, while the remaining order stays unchanged.
-- A technical safeguard now removes any future missing image automatically instead of showing text or a blank block.
-- The CSS and JavaScript links include a new version number so Safari loads the corrected files rather than an older cached version.
-- The About text still includes Kai’s personal experience of light, breeze, temperature, scent, sound, movement and atmosphere.
+Die Bilder, Kategorien, Reihenfolge und das Galerie-Layout bleiben unverändert.
 
-UPDATE WITH GITHUB DESKTOP
-1. Open the local website repository folder in Finder.
-2. Delete the old website files inside that folder, but do not delete the hidden .git folder.
-3. Copy every file and folder from this package into the repository folder.
-4. Open GitHub Desktop.
-5. Enter this Summary: Fix People gallery gap
-6. Click “Commit to main”.
-7. Click “Push origin”.
-8. Wait a few minutes and reload the website in Safari with Command + Option + R.
+SO AKTUALISIERST DU DIE WEBSITE:
+1. ZIP-Datei entpacken.
+2. GitHub Desktop öffnen.
+3. Repository → Show in Finder.
+4. Alle Inhalte aus diesem Ersatzordner in deinen bestehenden Webseitenordner ziehen.
+5. Bei der Nachfrage „Ersetzen“ beziehungsweise „Auf alle anwenden“ wählen.
+6. Den bestehenden Webseitenordner selbst nicht löschen, damit der unsichtbare .git-Ordner erhalten bleibt.
+7. In GitHub Desktop bei Summary eintragen:
+   Update German About text
+8. Commit to main anklicken.
+9. Danach Push origin anklicken.
+10. Einige Minuten warten und die Website neu laden.
