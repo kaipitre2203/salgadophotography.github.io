@@ -97,6 +97,8 @@
     img.alt = image.alt;
     img.loading = index < 2 ? 'eager' : 'lazy';
     img.decoding = 'async';
+    // A missing file must never leave visible alt text or a large empty gap.
+    img.addEventListener('error', () => figure.remove(), { once: true });
     button.append(img);
     figure.append(button);
     return figure;

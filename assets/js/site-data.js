@@ -12,14 +12,14 @@ window.SITE_DATA = {
       "Hi there and welcome to my website!",
       "My name is Kai Pitre Salgado. I am 29 years old, live in Bern, Switzerland, and photography is my greatest passion.",
       "Photography is, to me, one of the most beautiful forms of expression. It allows us to create art, preserve memories, show how we see the world, and document how life evolves over time. Images can reveal stories, emotions, and perspectives – often in ways words cannot.",
-      "For me, photography began as a personal way of observing the world more closely. Over time, it became something I wanted to share with others and develop further through Salgado Photography.",
-      "The photographs on this website reflect what I am most drawn to at the moment: natural expressions, spontaneous interactions, strong atmospheres, available light, and the small details that can give a scene its character. I enjoy photographing people as they are, but I am equally interested in places, events, businesses, landscapes, and everyday life.",
-      "I am still building my professional experience, and I see that as a strength rather than a limitation. I approach new assignments with curiosity, care, and openness, while bringing a clear visual perspective and taking the time to understand what each person, business, or project wants to communicate.",
-      "I am particularly interested in working with local companies, restaurants, cafés, cultural organisations, and other businesses in Bern and the surrounding region. I can create photographs for websites, social media, events, menus, campaigns, or any other setting in which authentic and distinctive images are needed.",
-      "Although my focus is local, I am available for assignments throughout Switzerland. I am also open to collaborations with tourism offices, destination organisations, and regional partners that want to present places, experiences, people, and landscapes through natural and engaging photography.",
-      "Alongside these projects, I am happy to offer one-to-one outdoor photography sessions. I prefer a relaxed approach in real surroundings, where there is room for movement, conversation, and unplanned moments rather than rigid poses.",
-      "When I photograph people, I try to create an atmosphere in which they can feel comfortable and remain themselves. My aim is not to make a situation look more perfect than it was, but to create images that feel personal, lively, and true to the moment.",
-      "I am open to different ideas and assignments, including projects that may not fit neatly into one category. What matters most to me is a good collaboration, a genuine interest in the subject, and the opportunity to create photographs with character.",
+      "What fascinates me most is the way photography lets me hold on to a certain atmosphere from my own perspective. For me, a photograph does not need to show everything to feel meaningful. Sometimes it is enough that it brings back the light of a place, the feeling of a breeze, the warmth or coolness in the air, a particular smell, nearby sounds, a sense of movement, or simply the mood of a moment.",
+      "What began as a personal way of observing the world more closely is now something I would like to share through the photographic services I offer.",
+      "The photographs on this website reflect what I am most drawn to at the moment: natural expressions, spontaneous interactions, strong atmospheres, available light, and the small details that give a scene its character. I enjoy images that feel personal, honest, and alive rather than overly staged.",
+      "I am still building my professional experience, but I approach new assignments with curiosity, care, and openness. I like getting to know the person, place, or idea behind a project and finding a visual approach that feels authentic to it.",
+      "I am particularly interested in working with local businesses, cafés, restaurants, creative initiatives, and other organisations in Bern and the surrounding region. At the same time, I am available for assignments throughout Switzerland.",
+      "I am also open to collaborations with tourism offices, destination partners, and regional organisations that want to present places, experiences, people, and landscapes through natural and engaging imagery.",
+      "Alongside this, I am happy to offer one-to-one outdoor shoots. I prefer a relaxed setting in real surroundings, where there is room for movement, conversation, and unplanned moments rather than rigid poses.",
+      "More generally, I am open to a wide range of photographic tasks. What matters most to me is a good collaboration, a genuine interest in the subject, and the chance to create images with character.",
       "I hope to see you soon.",
       "Kai"
     ],
@@ -57,6 +57,39 @@ window.SITE_DATA = {
         "src1800": "assets/images/people/dscf7337-2-1365.webp"
       },
       "images": [
+        {
+          "source": "DSCF0140.jpg",
+          "alt": "Family sitting together on outdoor steps",
+          "layout": "full",
+          "orientation": "landscape",
+          "width": 2048,
+          "height": 1365,
+          "src640": "assets/images/people/dscf0140-640.webp",
+          "src1100": "assets/images/people/dscf0140-1100.webp",
+          "src1800": "assets/images/people/dscf0140-1800.webp"
+        },
+        {
+          "source": "DSCF0577.jpg",
+          "alt": "A smiling woman holding a large autumn leaf",
+          "layout": "full",
+          "orientation": "landscape",
+          "width": 2048,
+          "height": 1365,
+          "src640": "assets/images/people/dscf0577-640.webp",
+          "src1100": "assets/images/people/dscf0577-1100.webp",
+          "src1800": "assets/images/people/dscf0577-1800.webp"
+        },
+        {
+          "source": "DSCF0024.jpg",
+          "alt": "A couple embracing in a quiet cobbled street",
+          "layout": "auto",
+          "orientation": "portrait",
+          "width": 1352,
+          "height": 2048,
+          "src640": "assets/images/people/dscf0024-640.webp",
+          "src1100": "assets/images/people/dscf0024-1100.webp",
+          "src1800": "assets/images/people/dscf0024-1352.webp"
+        },
         {
           "source": "DSCF7337-2.jpg",
           "alt": "Street portrait of a person with a bright blue scarf holding a longboard",
@@ -100,28 +133,6 @@ window.SITE_DATA = {
           "src640": "assets/images/people/dscf0325-640.webp",
           "src1100": "assets/images/people/dscf0325-1100.webp",
           "src1800": "assets/images/people/dscf0325-1365.webp"
-        },
-        {
-          "source": "DSCF0140.jpg",
-          "alt": "Family sitting together on outdoor steps",
-          "layout": "full",
-          "orientation": "landscape",
-          "width": 2048,
-          "height": 1365,
-          "src640": "assets/images/people/dscf0140-640.webp",
-          "src1100": "assets/images/people/dscf0140-1100.webp",
-          "src1800": "assets/images/people/dscf0140-1800.webp"
-        },
-        {
-          "source": "DSCF0577.jpg",
-          "alt": "A smiling woman holding a large autumn leaf",
-          "layout": "full",
-          "orientation": "landscape",
-          "width": 2048,
-          "height": 1365,
-          "src640": "assets/images/people/dscf0577-640.webp",
-          "src1100": "assets/images/people/dscf0577-1100.webp",
-          "src1800": "assets/images/people/dscf0577-1800.webp"
         },
         {
           "source": "Hochzeit-15.jpg",
@@ -188,17 +199,6 @@ window.SITE_DATA = {
           "src640": "assets/images/people/hochzeit-106-640.webp",
           "src1100": "assets/images/people/hochzeit-106-1100.webp",
           "src1800": "assets/images/people/hochzeit-106-1800.webp"
-        },
-        {
-          "source": "DSCF0024.jpg",
-          "alt": "A couple embracing in a quiet cobbled street",
-          "layout": "auto",
-          "orientation": "portrait",
-          "width": 1352,
-          "height": 2048,
-          "src640": "assets/images/people/dscf0024-640.webp",
-          "src1100": "assets/images/people/dscf0024-1100.webp",
-          "src1800": "assets/images/people/dscf0024-1352.webp"
         },
         {
           "source": "IMG_2620.jpg",

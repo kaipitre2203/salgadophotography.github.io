@@ -1,35 +1,21 @@
-SALGADO PHOTOGRAPHY – VOLLSTÄNDIGER ERSATZORDNER
+SALGADO PHOTOGRAPHY — COMPLETE REPLACEMENT UPDATE
 
-Dieses Paket enthält erneut die KOMPLETTE Webseite mit allen benötigten Dateien.
+This package contains the complete website.
 
-In diesem Update:
-- About-Text persönlicher und zurückhaltender formuliert
-- Alter: 29 Jahre
-- Offenheit für unterschiedliche Aufträge
-- lokaler Schwerpunkt mit schweizweiter Verfügbarkeit
-- Interesse an Unternehmen, Gastronomie, Kultur und Tourismus
-- 1:1 Outdoor-Shootings
-- Bild mit den zwei kleinen Jungen am Fenster entfernt
-- alle übrigen Bilder und ihre Reihenfolge unverändert
-- die Galerie schliesst die entstandene Stelle automatisch ohne sichtbare Lücke
+Fixed in this version:
+- The removed photo of the two children at the window is no longer referenced.
+- The visible alternative text and the large empty space in People are eliminated.
+- The following photographs move upward naturally, while the remaining order stays unchanged.
+- A technical safeguard now removes any future missing image automatically instead of showing text or a blank block.
+- The CSS and JavaScript links include a new version number so Safari loads the corrected files rather than an older cached version.
+- The About text still includes Kai’s personal experience of light, breeze, temperature, scent, sound, movement and atmosphere.
 
-SO ERSETZT DU DIE DATEIEN:
-
-1. ZIP-Datei entpacken.
-2. GitHub Desktop öffnen.
-3. Oben bei „Current Repository“ dein Webseiten-Projekt auswählen.
-4. Menü „Repository“ → „Show in Finder“.
-5. Den entpackten Ersatzordner öffnen.
-6. ALLE Inhalte aus dem Ersatzordner in deinen bestehenden GitHub-Webseitenordner ziehen.
-7. Bei der Nachfrage „Ersetzen“ bzw. „Auf alle anwenden“ wählen.
-
-WICHTIG:
-Den bestehenden GitHub-Webseitenordner selbst nicht löschen.
-Der unsichtbare Ordner „.git“ muss erhalten bleiben und ist in diesem Paket absichtlich nicht enthalten.
-
-DANACH IN GITHUB DESKTOP:
-8. Bei „Summary“ eingeben:
-   Update About text and People gallery
-9. „Commit to main“ anklicken.
-10. Danach oben „Push origin“ anklicken.
-11. Einige Minuten warten und die Webseite neu laden.
+UPDATE WITH GITHUB DESKTOP
+1. Open the local website repository folder in Finder.
+2. Delete the old website files inside that folder, but do not delete the hidden .git folder.
+3. Copy every file and folder from this package into the repository folder.
+4. Open GitHub Desktop.
+5. Enter this Summary: Fix People gallery gap
+6. Click “Commit to main”.
+7. Click “Push origin”.
+8. Wait a few minutes and reload the website in Safari with Command + Option + R.
