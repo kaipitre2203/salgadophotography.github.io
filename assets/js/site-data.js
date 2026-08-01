@@ -11,15 +11,15 @@ window.SITE_DATA = {
     "about": [
       "Hi there and welcome to my website!",
       "My name is Kai Pitre Salgado. I am 29 years old, live in Bern, Switzerland, and photography is my greatest passion.",
-      "What began as a personal way of observing the world has grown into a project I now share with others. Through Salgado Photography, I capture people, places, and moments as they unfold.",
       "Photography is, to me, one of the most beautiful forms of expression. It allows us to create art, preserve memories, show how we see the world, and document how life evolves over time. Images can reveal stories, emotions, and perspectives – often in ways words cannot.",
-      "A photograph does not need to capture everything to be meaningful. Its strength lies in its ability to distill a moment into a single frame. Even without sound, warmth, or scent, an image can bring us back to a certain feeling, awakening memories and emotions connected to that moment.",
-      "I particularly enjoy working with local companies, restaurants, cafés, cultural organisations, and other businesses in Bern and the surrounding region. I create visual material for websites, social media, campaigns, events, menus, and other forms of public communication.",
-      "Although my work has a strong local focus, I am available for photography assignments throughout Switzerland. I am also interested in collaborating with tourism offices, destination organisations, and regional partners to document places, experiences, people, and landscapes in an authentic and engaging way.",
-      "Alongside commercial and documentary assignments, I offer one-to-one outdoor photography sessions. These shoots are designed to feel natural and relaxed, using real surroundings and available light to create personal portraits with character and atmosphere.",
-      "When I work with people or businesses, my focus lies on presence, atmosphere, and the small, often unnoticed details that make each moment unique. Through openness, trust, and shared time, images emerge that go beyond the surface and offer an honest impression.",
-      "I prefer natural situations and a relaxed approach. The more comfortable a moment feels, the more genuine the resulting images become. My goal is to create photographs that not only look strong, but also feel true to the people, spaces, and stories they represent.",
-      "For me, photography is about getting as close as possible to the feeling of that very moment. A strong image invites you to pause, look again, and reconnect with what was experienced just before I pressed the shutter.",
+      "For me, photography began as a personal way of observing the world more closely. Over time, it became something I wanted to share with others and develop further through Salgado Photography.",
+      "The photographs on this website reflect what I am most drawn to at the moment: natural expressions, spontaneous interactions, strong atmospheres, available light, and the small details that can give a scene its character. I enjoy photographing people as they are, but I am equally interested in places, events, businesses, landscapes, and everyday life.",
+      "I am still building my professional experience, and I see that as a strength rather than a limitation. I approach new assignments with curiosity, care, and openness, while bringing a clear visual perspective and taking the time to understand what each person, business, or project wants to communicate.",
+      "I am particularly interested in working with local companies, restaurants, cafés, cultural organisations, and other businesses in Bern and the surrounding region. I can create photographs for websites, social media, events, menus, campaigns, or any other setting in which authentic and distinctive images are needed.",
+      "Although my focus is local, I am available for assignments throughout Switzerland. I am also open to collaborations with tourism offices, destination organisations, and regional partners that want to present places, experiences, people, and landscapes through natural and engaging photography.",
+      "Alongside these projects, I am happy to offer one-to-one outdoor photography sessions. I prefer a relaxed approach in real surroundings, where there is room for movement, conversation, and unplanned moments rather than rigid poses.",
+      "When I photograph people, I try to create an atmosphere in which they can feel comfortable and remain themselves. My aim is not to make a situation look more perfect than it was, but to create images that feel personal, lively, and true to the moment.",
+      "I am open to different ideas and assignments, including projects that may not fit neatly into one category. What matters most to me is a good collaboration, a genuine interest in the subject, and the opportunity to create photographs with character.",
       "I hope to see you soon.",
       "Kai"
     ],
@@ -155,17 +155,6 @@ window.SITE_DATA = {
           "src640": "assets/images/people/4db848b5-2525-4fc1-9a0b-043aa842d687-1-102-o-640.webp",
           "src1100": "assets/images/people/4db848b5-2525-4fc1-9a0b-043aa842d687-1-102-o-1100.webp",
           "src1800": "assets/images/people/4db848b5-2525-4fc1-9a0b-043aa842d687-1-102-o-1372.webp"
-        },
-        {
-          "source": "DSCF0362.jpg",
-          "alt": "Two children standing in silhouette by a large window",
-          "layout": "full",
-          "orientation": "portrait",
-          "width": 1365,
-          "height": 2048,
-          "src640": "assets/images/people/dscf0362-640.webp",
-          "src1100": "assets/images/people/dscf0362-1100.webp",
-          "src1800": "assets/images/people/dscf0362-1800.webp"
         },
         {
           "source": "DSCF0978.jpg",

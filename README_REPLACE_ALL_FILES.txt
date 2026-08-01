@@ -1,16 +1,17 @@
 SALGADO PHOTOGRAPHY – VOLLSTÄNDIGER ERSATZORDNER
 
-Dieser Ordner enthält die KOMPLETTE Webseite:
-- alle HTML-Dateien
-- Design und mobile Darstellung
-- alle Galerien und Bilder
-- aktualisierte Bildkategorien
-- Custom Domain salgadophotography.ch
-- sichtbarer Name oben links: SALGADO PHOTOGRAPHY
-- aktualisierter About-Text mit Alter 29
-- lokale Unternehmen + schweizweite Verfügbarkeit
-- Tourismusbüros und Destinationen
+Dieses Paket enthält erneut die KOMPLETTE Webseite mit allen benötigten Dateien.
+
+In diesem Update:
+- About-Text persönlicher und zurückhaltender formuliert
+- Alter: 29 Jahre
+- Offenheit für unterschiedliche Aufträge
+- lokaler Schwerpunkt mit schweizweiter Verfügbarkeit
+- Interesse an Unternehmen, Gastronomie, Kultur und Tourismus
 - 1:1 Outdoor-Shootings
+- Bild mit den zwei kleinen Jungen am Fenster entfernt
+- alle übrigen Bilder und ihre Reihenfolge unverändert
+- die Galerie schliesst die entstandene Stelle automatisch ohne sichtbare Lücke
 
 SO ERSETZT DU DIE DATEIEN:
 
@@ -24,11 +25,11 @@ SO ERSETZT DU DIE DATEIEN:
 
 WICHTIG:
 Den bestehenden GitHub-Webseitenordner selbst nicht löschen.
-Der unsichtbare Ordner „.git“ muss erhalten bleiben. Er ist in diesem Paket absichtlich nicht enthalten.
+Der unsichtbare Ordner „.git“ muss erhalten bleiben und ist in diesem Paket absichtlich nicht enthalten.
 
 DANACH IN GITHUB DESKTOP:
 8. Bei „Summary“ eingeben:
-   Replace complete website files
+   Update About text and People gallery
 9. „Commit to main“ anklicken.
 10. Danach oben „Push origin“ anklicken.
 11. Einige Minuten warten und die Webseite neu laden.
