@@ -57,20 +57,9 @@ window.SITE_DATA = {
       },
       "images": [
         {
-          "source": "DSCF0140.jpg",
-          "alt": "Family sitting together on outdoor steps",
-          "layout": "full",
-          "orientation": "landscape",
-          "width": 2048,
-          "height": 1365,
-          "src640": "assets/images/people/dscf0140-640.webp",
-          "src1100": "assets/images/people/dscf0140-1100.webp",
-          "src1800": "assets/images/people/dscf0140-1800.webp"
-        },
-        {
           "source": "DSCF0577.jpg",
           "alt": "A smiling woman holding a large autumn leaf",
-          "layout": "full",
+          "layout": "featured-landscape",
           "orientation": "landscape",
           "width": 2048,
           "height": 1365,

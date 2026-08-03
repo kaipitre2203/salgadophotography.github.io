@@ -118,19 +118,19 @@
     const heroMedia = qs('[data-gallery-hero-media]');
     setResponsiveHero(heroMedia, cat.heroDesktop, cat.heroMobile, cat.heroPositionDesktop, cat.heroPositionMobile);
     // Keep all selected photographs in the gallery, including the cover image.
-    // People opens with three equally proportioned portraits. The original
-    // blue-scarf and red-court portraits remain visible, with a new portrait
-    // between them to create a more balanced desktop composition.
+    // The People gallery opens with a balanced two-image composition:
+    // the autumn-leaf portrait stays in its original landscape format, while
+    // the following portrait completes the row without leaving an empty space.
     const galleryImages = cat.images;
 
     const rowsRoot = qs('[data-gallery-rows]');
     const galleryContent = rowsRoot.closest('.gallery-content');
-    if (category === 'people' && galleryImages.length >= 3) {
-      const featuredTrio = document.createElement('div');
-      featuredTrio.className = 'gallery-featured-trio';
-      galleryImages.slice(0, 3).forEach((image, index) => featuredTrio.append(makePhoto(image, index)));
-      galleryContent.insertBefore(featuredTrio, rowsRoot);
-      galleryImages.slice(3).forEach((image, offset) => rowsRoot.append(makePhoto(image, offset + 3)));
+    if (category === 'people' && galleryImages.length >= 2) {
+      const featuredPeople = document.createElement('div');
+      featuredPeople.className = 'gallery-featured-people';
+      galleryImages.slice(0, 2).forEach((image, index) => featuredPeople.append(makePhoto(image, index)));
+      galleryContent.insertBefore(featuredPeople, rowsRoot);
+      galleryImages.slice(2).forEach((image, offset) => rowsRoot.append(makePhoto(image, offset + 2)));
     } else {
       galleryImages.forEach((image, index) => rowsRoot.append(makePhoto(image, index)));
     }

@@ -1,13 +1,11 @@
-DOMAIN-FIX FÜR GITHUB PAGES
+SALGADO PHOTOGRAPHY – VOLLSTÄNDIGER WEBSITE-ORDNER V6
 
-Diese Datei gehört direkt in den Hauptordner deines GitHub-Repositories:
-CNAME
+Dieser Ordner enthält die komplette Website inklusive aller Bilder, Unterseiten,
+Stylesheets, Skripte und der CNAME-Datei.
 
-Der Inhalt lautet:
-salgadophotography.ch
+Aktuelle Änderung:
+Das Familienfoto wurde entfernt und die People-Galerie ohne leere Fläche neu angeordnet.
+Das Foto der Frau mit dem Herbstblatt wird in seinem originalen Querformat dargestellt.
 
-Wichtig:
-- Die Datei darf nicht CNAME.txt heissen.
-- Sie muss auf derselben Ebene liegen wie index.html.
-- Bei Hosttech nichts mehr ändern.
-- Danach in GitHub Desktop committen und pushen.
+Bitte den Inhalt dieses Ordners in den bestehenden lokalen Webseitenordner kopieren,
+danach in GitHub Desktop committen und pushen.

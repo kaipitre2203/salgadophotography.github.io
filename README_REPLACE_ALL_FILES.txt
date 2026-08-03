@@ -1,16 +1,12 @@
-SALGADO PHOTOGRAPHY – VOLLSTÄNDIGER ERSATZORDNER V5
+SALGADO PHOTOGRAPHY – VOLLSTÄNDIGER ERSATZORDNER V6
 
-Geändert wurde ausschliesslich der About-Text:
-- vollständiger deutscher Text
-- Alter 29 Jahre
-- persönliche Perspektive auf Fotografie
-- Fokus auf lokale Unternehmen und deren Web-/Social-Media-Auftritt
-- faire und transparente Preisgestaltung
-- Offenheit für unterschiedliche fotografische Aufträge
-- klares Interesse an Schweizer Tourismusorganisationen
-- schweizweite und bei Bedarf internationale Verfügbarkeit
-
-Die Bilder, Kategorien, Reihenfolge und das Galerie-Layout bleiben unverändert.
+Geändert:
+- Das Familienfoto mit dem Baby wurde vollständig aus der People-Galerie entfernt.
+- Die dazugehörigen Bilddateien wurden ebenfalls entfernt.
+- Das Foto der Frau mit dem Herbstblatt wird im originalen Querformat gezeigt.
+- Das Querformatbild und das folgende Portrait bilden am Anfang der People-Galerie eine geschlossene Reihe.
+- Die übrigen Bilder rücken automatisch nach; es bleibt keine leere Fläche.
+- Der deutsche About-Text und die Datei CNAME bleiben enthalten.
 
 SO AKTUALISIERST DU DIE WEBSITE:
 1. ZIP-Datei entpacken.
@@ -20,7 +16,7 @@ SO AKTUALISIERST DU DIE WEBSITE:
 5. Bei der Nachfrage „Ersetzen“ beziehungsweise „Auf alle anwenden“ wählen.
 6. Den bestehenden Webseitenordner selbst nicht löschen, damit der unsichtbare .git-Ordner erhalten bleibt.
 7. In GitHub Desktop bei Summary eintragen:
-   Update German About text
+   Remove family photo and rebalance People gallery
 8. Commit to main anklicken.
 9. Danach Push origin anklicken.
-10. Einige Minuten warten und die Website neu laden.
+10. Einige Minuten warten und die Website mit Cmd + Shift + R neu laden.
